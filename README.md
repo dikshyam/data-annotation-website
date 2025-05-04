@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+# Data Annotation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A GitHub Pages website for scientific answer annotation with separate "Record Feedback" and "Review Another Question" buttons.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project consists of two parts:
+1. A React frontend (deployed on GitHub Pages)
+2. A Python Flask backend (for question selection logic)
 
-### `npm start`
+## Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend Setup (GitHub Pages)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/dikshyam/data-annotation-website.git
+   cd data-annotation-website
+   ```
 
-### `npm test`
+2. Install dependencies
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Update the React components with the separate buttons
+   - Replace `src/components/QuestionReview.js` with the updated version
+   - Add the new button styles to `src/styles/main.css`
 
-### `npm run build`
+4. Build and deploy to GitHub Pages
+   ```bash
+   npm run build
+   npm run deploy
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Python Backend Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Create a new directory for the backend
+   ```bash
+   mkdir data-annotation-backend
+   cd data-annotation-backend
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Create a virtual environment
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-### `npm run eject`
+3. Install required packages
+   ```bash
+   pip install flask flask-cors
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Copy the Python files from this repository
+   - `app.py` - The Flask API
+   - `initialize_questions.py` - Script to create sample question data
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Run the initialization script
+   ```bash
+   python initialize_questions.py
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Start the Flask server
+   ```bash
+   python app.py
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Flask API will run on `http://localhost:5000` by default.
 
-## Learn More
+## Integrating Frontend with Backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To connect your React frontend with the Python backend, you'll need to modify the React components to fetch questions from the API instead of loading them from static JSON files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Update the React Component
 
-### Code Splitting
+Update your `App.js` to include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```javascript
+const API_URL = 'http://localhost:5000/api'; // Change to your deployed API URL
 
-### Analyzing the Bundle Size
+// Inside your component
+const fetchRandomQuestion = async (domain) => {
+  const userId = localStorage.getItem('userId') || 'anonymous';
+  const response = await fetch(`${API_URL}/question?domain=${domain}&user_id=${userId}`);
+  
+  if (response.status === 204) {
+    // All questions reviewed
+    navigate('/thank-you');
+    return null;
+  }
+  
+  if (!response.ok) {
+    throw new Error('Failed to fetch question');
+  }
+  
+  return await response.json();
+};
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+const submitResponse = async (responseData) => {
+  const userId = localStorage.getItem('userId') || 'anonymous';
+  const response = await fetch(`${API_URL}/response`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      ...responseData,
+      user_id: userId
+    }),
+  });
+  
+  if (!response.ok) {
+    throw new Error('Failed to submit response');
+  }
+  
+  return await response.json();
+};
+```
 
-### Making a Progressive Web App
+### Deployment Options for the Python Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Local Development**: Run the Flask server locally during development.
 
-### Advanced Configuration
+2. **Heroku Deployment**:
+   - Create a `requirements.txt` file with the dependencies
+   - Create a `Procfile` with: `web: gunicorn app:app`
+   - Install Gunicorn: `pip install gunicorn`
+   - Deploy to Heroku using their CLI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **PythonAnywhere**:
+   - Create an account on PythonAnywhere
+   - Upload your files
+   - Set up a web app pointing to your Flask application
 
-### Deployment
+4. **AWS Lambda/API Gateway**:
+   - Convert the Flask app to Lambda functions
+   - Set up API Gateway endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Additional Features
 
-### `npm run build` fails to minify
+- User authentication
+- Admin dashboard for viewing statistics
+- Export annotated data to CSV/Excel
+- Integration with a database for persistent storage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+MIT

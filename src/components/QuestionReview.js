@@ -1,3 +1,4 @@
+// QuestionReview.js - Question and answer review component with separate buttons
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RatingSystem from './RatingSystem';
@@ -11,6 +12,7 @@ function QuestionReview({ domain, onSubmitResponse }) {
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [reviewedQuestions, setReviewedQuestions] = useState([]);
+  const [feedbackRecorded, setFeedbackRecorded] = useState(false);
 
   // Load questions based on selected domain
   useEffect(() => {
@@ -60,13 +62,14 @@ function QuestionReview({ domain, onSubmitResponse }) {
     setCurrentQuestion(selectedQuestion);
     setSelectedAnswer(selectedQuestion.answers[answerIndex]);
     setRatings({});
+    setFeedbackRecorded(false);
   };
 
   const handleRatingChange = (newRatings) => {
     setRatings(newRatings);
   };
 
-  const handleSubmit = () => {
+  const handleRecordFeedback = () => {
     // Check if all criteria have been rated
     const allRated = Object.values(ratings).every(rating => rating > 0);
     
@@ -94,8 +97,19 @@ function QuestionReview({ domain, onSubmitResponse }) {
     // Add the question to the reviewed list
     setReviewedQuestions([...reviewedQuestions, currentQuestion.id]);
     
-    // Reset for next question
+    // Mark feedback as recorded
+    setFeedbackRecorded(true);
     setIsSubmitting(false);
+  };
+
+  const handleNextQuestion = () => {
+    // Only allow going to the next question if feedback has been recorded
+    if (!feedbackRecorded) {
+      alert('Please record your feedback first.');
+      return;
+    }
+    
+    // Reset for next question
     selectRandomQuestionAndAnswer();
   };
 
@@ -126,11 +140,19 @@ function QuestionReview({ domain, onSubmitResponse }) {
       
       <div className="action-buttons">
         <button 
-          className="submit-button"
-          onClick={handleSubmit}
-          disabled={isSubmitting}
+          className="record-button"
+          onClick={handleRecordFeedback}
+          disabled={isSubmitting || feedbackRecorded}
         >
-          {isSubmitting ? 'Submitting...' : 'Submit & Review Another Question'}
+          {isSubmitting ? 'Submitting...' : feedbackRecorded ? 'Feedback Recorded ✓' : 'Record Feedback'}
+        </button>
+        
+        <button 
+          className="next-button"
+          onClick={handleNextQuestion}
+          disabled={!feedbackRecorded}
+        >
+          Review Another Question
         </button>
       </div>
     </div>

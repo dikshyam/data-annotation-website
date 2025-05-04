@@ -59,6 +59,46 @@
     color: var(--secondary-color);
   }
   
+  /* Updated Action Buttons */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.record-button {
+  background-color: var(--success-color);
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  min-width: 180px;
+}
+
+.record-button:disabled {
+  background-color: #a8e6bc;
+  color: #2c3e50;
+  opacity: 0.8;
+  cursor: default;
+}
+
+.next-button {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  min-width: 220px;
+}
+
+.next-button:disabled {
+  background-color: #a4c8e8;
+  color: #2c3e50;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Add some styling for the "recorded" state */
+.record-button.recorded {
+  background-color: #27ae60;
+}
   /* Layout */
   .app-container {
     min-height: 100vh;
