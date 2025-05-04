@@ -209,6 +209,106 @@
                     "text": "Crystalline regions in freeze-thaw PVA gels can form along the polymer chain, not just at ends. Thus, they create a network of crosslinks throughout the material, not a single long polymer. This results in a gel matrix, not a single chain."
                 }
             ]
+        },
+        {
+            "id": "chem-q16", 
+            "text": "Which crystalline polymorphs of cellulose are most common and how are they distinguished?",
+            "answers": [
+                {
+                    "id": "chem-q16-a1",
+                    "text": "Native fibres adopt cellulose I (Iα in algae/bacteria; Iβ in higher plants). Conversion by mercerisation or regeneration yields cellulose II, while heat/acid treatment can produce cellulose III and IV. Each form differs in chain packing and hydrogen‑bond topology, with X‑ray diffraction revealing characteristic 2θ peaks that shift as chains rearrange from parallel (I) to antiparallel (II) configurations."
+                },
+                {
+                    "id": "chem-q16-a2",
+                    "text": "Cellulose I (Iα & Iβ): the native form, chains run parallel; Iα dominates in algae/bacteria, Iβ in higher plants. Cellulose II: obtained by mercerisation or regeneration, chains are antiparallel. They are distinguished by X‑ray or solid‑state NMR patterns and their different hydrogen‑bonding motifs."
+                }
+            ]
+        },
+        {
+            "id": "chem-q17",
+            "text": "What hydrogen‑bond network underpins the stiffness of cellulose Iβ microfibrils?",
+            "answers": [
+                {
+                    "id": "chem-q17-a1",
+                    "text": "In Iβ, intrachain O‑3–H···O‑5 and interchain O‑6–H···O‑3′ hydrogen bonds, augmented by van der Waals stacking between glucan sheets, create a densely cross‑linked lattice that resists shear and imparts high tensile strength."
+                },
+                {
+                    "id": "chem-q17-a2",
+                    "text": "Each chain is stiffened by intrachain O3–H···O5 and O2–H···O6 bonds, while interchain O6–H···O3′ bonds knit the sheets together into a highly ordered microfibril."
+                }
+            ]
+        },
+        {
+            "id": "chem-q18",
+            "text": "How does the degree of polymerisation (DP) influence mechanical performance?",
+            "answers": [
+                {
+                    "id": "chem-q18-a1",
+                    "text": "Higher DP means longer, more entangled chains spanning multiple crystalline domains, raising tensile strength and modulus; depolymerisation reduces load transfer and lowers fibre strength."
+                },
+                {
+                    "id": "chem-q18-a2",
+                    "text": "Higher DP ⇒ longer chains ⇒ more load‑bearing hydrogen‑bonded segments and entanglements, giving greater tensile strength and modulus; lowering DP reduces mechanical performance."
+                }
+            ]
+        },
+        {
+            "id": "chem-q19",
+            "text": "What structural role do the C2, C3 and C6 hydroxyls play in cellulose reactivity?",
+            "answers": [
+                {
+                    "id": "chem-q19-a1",
+                    "text": "Secondary C2/C3 –OH groups form intra‑sheet H‑bonds, stabilising crystallites, whereas the primary C6 –OH projects outward, is less sterically hindered and is the preferred site for selective oxidation or esterification—modifications that tune surface charge and hydrophobicity without disrupting the backbone."
+                },
+                {
+                    "id": "chem-q19-a2",
+                    "text": "C2 & C3 (equatorial): form most of the intra/inter‑chain H‑bonds that stabilise the crystal. C6 (primary): more exposed and flexible, so it is the preferred site for chemical modification; its conformation also mediates inter‑sheet contacts."
+                }
+            ]
+        },
+        {
+            "id": "chem-q20",
+            "text": "What effect does introducing carboxylate groups via TEMPO oxidation have on colloidal stability?",
+            "answers": [
+                {
+                    "id": "chem-q20-a1",
+                    "text": "Conversion of surface C6‑OH to –COO⁻ imparts negative charge, generating strong electrostatic repulsion that prevents nanofibril aggregation, resulting in transparent, stable dispersions and facilitating hydrogel formation."
+                },
+                {
+                    "id": "chem-q20-a2",
+                    "text": "Surface –COO⁻ groups dissociate in water, generating strong electrostatic repulsion that keeps cellulose nanofibrils well‑dispersed and prevents aggregation even at low concentrations."
+                }
+            ]
+        },
+        {
+            "id": "chem-q21",
+            "text": "What thermal events characterise cellulose degradation?",
+            "answers": [
+                {
+                    "id": "chem-q21-a1",
+                    "text": "TGA shows an onset near 280 °C, peaking at 320–350 °C, where glycosidic scission and dehydration generate levoglucosan and char; acetylation or reduced crystallinity shift these temperatures downward by weakening hydrogen bonding."
+                },
+                {
+                    "id": "chem-q21-a2",
+                    "text": "Cellulose degradation begins with moisture desorption below ≈120 °C, followed by a mild activation phase (150–200 °C) where limited glycosidic‑bond cleavage creates a more reactive intermediate. The main mass‑loss event occurs around 240–320 °C, when random scission and intramolecular trans‑glycosylation rapidly depolymerise the chains, releasing volatiles such as levoglucosan, CO₂, CO and water. Between 300 and 350 °C, residual fragments cross‑link and dehydrate to form an aromatic char, a process that gradually shifts from endothermic to exothermic. Above ~350 °C in an inert atmosphere the char slowly condenses and loses small gases, whereas in air it undergoes vigorous exothermic oxidation, leaving only mineral ash."
+                }
+            ]
+        },
+        {
+            "id": "chem-q22",
+            "text": "How do I regenerate the carboxylate cellulose (woodchip), after they absorb the cationic dye, for example MB? Make sure the properties are not changed",
+            "answers": [
+                {
+                    "id": "chem-q22-a1",
+                    "text": "Acid washed and then base washed."
+                },
+                {
+                    "id": "chem-q22-a2",
+                    "text": "Competitive Ion Exchange Using Salt Solutions Mechanism: A salt solution (e.g., sodium chloride) introduces an excess of competing cations (Na⁺) into the system. These cations compete with MB for the carboxylate sites, effectively displacing the dye. Advantages: The salt solution approach is relatively mild and typically does not affect the chemical or physical integrity of the cellulose. It avoids harsh pH changes that could lead to degradation or alteration of the carboxylate groups. Mild pH Adjustment (Acidic Washing) Mechanism: Lowering the pH with a mild acid (such as dilute HCl or acetic acid) protonates the carboxylate groups. When protonated, these groups lose their negative charge, diminishing their affinity for the cationic dye and promoting desorption. Advantages and Caveats: While this method is effective in breaking the electrostatic interaction, the acid strength and exposure time must be carefully controlled to avoid hydrolysis of cellulose or loss of functional groups. Typically, a very dilute acid is recommended, followed by thorough rinsing until neutral pH is restored"
+                }
+            ]
         }
+
+
     ]
 }

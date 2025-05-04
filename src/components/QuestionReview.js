@@ -1,4 +1,4 @@
-// QuestionReview.js - Simplified version with conditional math rendering
+// QuestionReview.js - Updated with prioritized question selection
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RatingSystem from './RatingSystem';
@@ -13,7 +13,7 @@ function QuestionReview({ domain, onSubmitResponse }) {
   const [comment, setComment] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [reviewedQuestions, setReviewedQuestions] = useState([]);
+  const [reviewedPairs, setReviewedPairs] = useState({});
   const [feedbackRecorded, setFeedbackRecorded] = useState(false);
   // Create a ref to the RatingSystem component
   const ratingSystemRef = useRef();
@@ -37,14 +37,20 @@ function QuestionReview({ domain, onSubmitResponse }) {
     };
 
     loadQuestions();
+    
+    // Load reviewed pairs from localStorage
+    const savedReviewedPairs = localStorage.getItem('reviewedPairs');
+    if (savedReviewedPairs) {
+      setReviewedPairs(JSON.parse(savedReviewedPairs));
+    }
   }, [domain]);
 
-  // Select a random question and answer when questions are loaded
+  // Select a question and answer when questions are loaded
   useEffect(() => {
     if (questions.length > 0 && !currentQuestion) {
-      selectRandomQuestionAndAnswer();
+      selectPrioritizedQuestionAnswer();
     }
-  }, [questions]);
+  }, [questions, reviewedPairs]);
 
   // Typeset math when question or answer changes
   useEffect(() => {
@@ -56,25 +62,53 @@ function QuestionReview({ domain, onSubmitResponse }) {
     }
   }, [currentQuestion, selectedAnswer]);
 
-  const selectRandomQuestionAndAnswer = () => {
-    // Filter out questions that have already been reviewed
-    const availableQuestions = questions.filter(
-      q => !reviewedQuestions.includes(q.id)
-    );
+  // Save reviewed pairs to localStorage when it changes
+  useEffect(() => {
+    localStorage.setItem('reviewedPairs', JSON.stringify(reviewedPairs));
+  }, [reviewedPairs]);
 
-    if (availableQuestions.length === 0) {
-      // All questions have been reviewed
-      navigate('/thank-you');
+  // Get a pair ID from question and answer IDs
+  const getPairId = (questionId, answerId) => `${questionId}-${answerId}`;
+
+  // Get review count for a specific question-answer pair
+  const getPairReviewCount = (questionId, answerId) => {
+    const pairId = getPairId(questionId, answerId);
+    return reviewedPairs[pairId] || 0;
+  };
+
+  // Select a question-answer pair with prioritization
+  const selectPrioritizedQuestionAnswer = () => {
+    // First, create all possible question-answer pairs
+    const allPairs = [];
+    
+    questions.forEach(question => {
+      question.answers.forEach(answer => {
+        allPairs.push({
+          question,
+          answer,
+          reviewCount: getPairReviewCount(question.id, answer.id)
+        });
+      });
+    });
+    
+    if (allPairs.length === 0) {
+      console.error('No question-answer pairs available');
       return;
     }
-
-    const randomIndex = Math.floor(Math.random() * availableQuestions.length);
-    const selectedQuestion = availableQuestions[randomIndex];
     
-    // Select a random answer for this question
-    const answerIndex = Math.floor(Math.random() * selectedQuestion.answers.length);
-    setCurrentQuestion(selectedQuestion);
-    setSelectedAnswer(selectedQuestion.answers[answerIndex]);
+    // Find the minimum review count among all pairs
+    const minReviewCount = Math.min(...allPairs.map(pair => pair.reviewCount));
+    
+    // Filter to get only the pairs with the minimum review count
+    const priorityPairs = allPairs.filter(pair => pair.reviewCount === minReviewCount);
+    
+    // Randomly select one of the priority pairs
+    const randomIndex = Math.floor(Math.random() * priorityPairs.length);
+    const selectedPair = priorityPairs[randomIndex];
+    
+    // Set the selected question and answer
+    setCurrentQuestion(selectedPair.question);
+    setSelectedAnswer(selectedPair.answer);
     setRatings({});
     setComment('');
     setFeedbackRecorded(false);
@@ -83,6 +117,8 @@ function QuestionReview({ domain, onSubmitResponse }) {
     if (ratingSystemRef.current) {
       ratingSystemRef.current.resetRatings();
     }
+    
+    console.log(`Selected pair: ${selectedPair.question.id}-${selectedPair.answer.id} (Review count: ${selectedPair.reviewCount})`);
   };
 
   const handleRatingChange = (newRatings) => {
@@ -122,8 +158,14 @@ function QuestionReview({ domain, onSubmitResponse }) {
     // Submit the response to local storage
     onSubmitResponse(response);
     
-    // Add the question to the reviewed list
-    setReviewedQuestions([...reviewedQuestions, currentQuestion.id]);
+    // Update the review count for this pair
+    const pairId = getPairId(currentQuestion.id, selectedAnswer.id);
+    const currentCount = reviewedPairs[pairId] || 0;
+    
+    setReviewedPairs(prev => ({
+      ...prev,
+      [pairId]: currentCount + 1
+    }));
     
     // Mark feedback as recorded
     setFeedbackRecorded(true);
@@ -137,8 +179,8 @@ function QuestionReview({ domain, onSubmitResponse }) {
       return;
     }
     
-    // Reset for next question
-    selectRandomQuestionAndAnswer();
+    // Select next prioritized question
+    selectPrioritizedQuestionAnswer();
   };
 
   if (isLoading) {
@@ -180,7 +222,6 @@ function QuestionReview({ domain, onSubmitResponse }) {
           onChange={handleCommentChange}
           placeholder="Add any additional feedback or comments about this answer..."
           rows={12}
-          columns={50}
         />
       </div>
       
