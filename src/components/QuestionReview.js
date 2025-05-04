@@ -179,7 +179,8 @@ function QuestionReview({ domain, onSubmitResponse }) {
           value={comment}
           onChange={handleCommentChange}
           placeholder="Add any additional feedback or comments about this answer..."
-          rows={6}
+          rows={12}
+          columns={50}
         />
       </div>
       
