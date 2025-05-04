@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+// RatingSystem.js - Rating criteria component with reset function
+import React, { useState, forwardRef, useImperativeHandle } from 'react';
 
-function RatingSystem({ onRatingChange }) {
+const RatingSystem = forwardRef(({ onRatingChange }, ref) => {
   const criteria = [
     { id: 'reasoning', label: 'Reasoning' },
     { id: 'accuracy', label: 'Accuracy' },
@@ -16,6 +17,19 @@ function RatingSystem({ onRatingChange }) {
     creativity: 0,
     difficulty: 0
   });
+
+  // Expose the resetRatings method to parent components
+  useImperativeHandle(ref, () => ({
+    resetRatings: () => {
+      setRatings({
+        reasoning: 0,
+        accuracy: 0,
+        domainKnowledge: 0,
+        creativity: 0,
+        difficulty: 0
+      });
+    }
+  }));
 
   const handleRatingClick = (criterionId, value) => {
     const newRatings = { ...ratings, [criterionId]: value };
@@ -43,6 +57,6 @@ function RatingSystem({ onRatingChange }) {
       ))}
     </div>
   );
-}
+});
 
 export default RatingSystem;

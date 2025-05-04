@@ -1,5 +1,5 @@
-// QuestionReview.js - Updated with Google Sheets integration
-import React, { useState, useEffect } from 'react';
+// QuestionReview.js - Simplified version with conditional math rendering
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RatingSystem from './RatingSystem';
 import submitToGoogleSheets from '../utils/GoogleSheetsSubmit';
@@ -15,6 +15,8 @@ function QuestionReview({ domain, onSubmitResponse }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [reviewedQuestions, setReviewedQuestions] = useState([]);
   const [feedbackRecorded, setFeedbackRecorded] = useState(false);
+  // Create a ref to the RatingSystem component
+  const ratingSystemRef = useRef();
 
   // Load questions based on selected domain
   useEffect(() => {
@@ -44,6 +46,16 @@ function QuestionReview({ domain, onSubmitResponse }) {
     }
   }, [questions]);
 
+  // Typeset math when question or answer changes
+  useEffect(() => {
+    if (currentQuestion && selectedAnswer && window.MathJax) {
+      // Use a small timeout to ensure the content is in the DOM
+      setTimeout(() => {
+        window.MathJax.typeset();
+      }, 100);
+    }
+  }, [currentQuestion, selectedAnswer]);
+
   const selectRandomQuestionAndAnswer = () => {
     // Filter out questions that have already been reviewed
     const availableQuestions = questions.filter(
@@ -66,6 +78,11 @@ function QuestionReview({ domain, onSubmitResponse }) {
     setRatings({});
     setComment('');
     setFeedbackRecorded(false);
+    
+    // Reset the rating UI by calling reset method on the RatingSystem component
+    if (ratingSystemRef.current) {
+      ratingSystemRef.current.resetRatings();
+    }
   };
 
   const handleRatingChange = (newRatings) => {
@@ -138,16 +155,22 @@ function QuestionReview({ domain, onSubmitResponse }) {
       
       <div className="question-container">
         <h3>Question:</h3>
-        <p>{currentQuestion.text}</p>
+        <div 
+          className="question-text"
+          dangerouslySetInnerHTML={{ __html: currentQuestion.text }}
+        />
       </div>
       
       <div className="answer-container">
         <h3>Answer:</h3>
-        <p>{selectedAnswer.text}</p>
+        <div
+          className="answer-text"
+          dangerouslySetInnerHTML={{ __html: selectedAnswer.text }}
+        />
       </div>
       
       <h3>Rate this answer:</h3>
-      <RatingSystem onRatingChange={handleRatingChange} />
+      <RatingSystem onRatingChange={handleRatingChange} ref={ratingSystemRef} />
       
       <div className="comment-container">
         <h3>Additional Comments (Optional):</h3>
@@ -156,7 +179,7 @@ function QuestionReview({ domain, onSubmitResponse }) {
           value={comment}
           onChange={handleCommentChange}
           placeholder="Add any additional feedback or comments about this answer..."
-          rows={4}
+          rows={6}
         />
       </div>
       
