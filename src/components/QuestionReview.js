@@ -1,7 +1,8 @@
-// QuestionReview.js - Question and answer review component with separate buttons
+// QuestionReview.js - Updated with Google Sheets integration
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RatingSystem from './RatingSystem';
+import submitToGoogleSheets from '../utils/GoogleSheetsSubmit';
 
 function QuestionReview({ domain, onSubmitResponse }) {
   const navigate = useNavigate();
@@ -9,6 +10,7 @@ function QuestionReview({ domain, onSubmitResponse }) {
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [ratings, setRatings] = useState({});
+  const [comment, setComment] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [reviewedQuestions, setReviewedQuestions] = useState([]);
@@ -62,11 +64,16 @@ function QuestionReview({ domain, onSubmitResponse }) {
     setCurrentQuestion(selectedQuestion);
     setSelectedAnswer(selectedQuestion.answers[answerIndex]);
     setRatings({});
+    setComment('');
     setFeedbackRecorded(false);
   };
 
   const handleRatingChange = (newRatings) => {
     setRatings(newRatings);
+  };
+
+  const handleCommentChange = (e) => {
+    setComment(e.target.value);
   };
 
   const handleRecordFeedback = () => {
@@ -88,10 +95,14 @@ function QuestionReview({ domain, onSubmitResponse }) {
       questionText: currentQuestion.text,
       answerId: selectedAnswer.id,
       answerText: selectedAnswer.text,
-      ratings
+      ratings,
+      comment
     };
 
-    // Submit the response
+    // Submit to Google Sheets
+    submitToGoogleSheets(response);
+
+    // Submit the response to local storage
     onSubmitResponse(response);
     
     // Add the question to the reviewed list
@@ -137,6 +148,17 @@ function QuestionReview({ domain, onSubmitResponse }) {
       
       <h3>Rate this answer:</h3>
       <RatingSystem onRatingChange={handleRatingChange} />
+      
+      <div className="comment-container">
+        <h3>Additional Comments (Optional):</h3>
+        <textarea 
+          className="comment-textarea"
+          value={comment}
+          onChange={handleCommentChange}
+          placeholder="Add any additional feedback or comments about this answer..."
+          rows={4}
+        />
+      </div>
       
       <div className="action-buttons">
         <button 
