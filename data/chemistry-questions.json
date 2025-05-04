@@ -1,0 +1,22 @@
+{
+    "questions": [
+      {
+        "id": "chem-q1",
+        "text": "Explain the concept of electronegativity and its importance in chemical bonding.",
+        "answers": [
+          {
+            "id": "chem-q1-a1",
+            "text": "Electronegativity is a measure of an atom's ability to attract shared electrons in a chemical bond. Higher electronegativity values indicate a stronger attraction for electrons. The difference in electronegativity between atoms determines the type of bond formed: covalent (small difference), polar covalent (moderate difference), or ionic (large difference). This concept is crucial for predicting molecular properties, reactivity, and behavior in various chemical environments."
+          },
+          {
+            "id": "chem-q1-a2",
+            "text": "Electronegativity refers to how strongly atoms pull electrons toward themselves in a bond. Elements like fluorine and oxygen have high electronegativity, while metals like sodium have low values. When atoms with different electronegativities bond, electrons aren't shared equally, creating polar molecules with partial charges. This affects everything from solubility to reaction mechanisms."
+          },
+          {
+            "id": "chem-q1-a3",
+            "text": "Electronegativity is the tendency of an atom to attract electrons in a chemical bond. It increases across periods and decreases down groups in the periodic table. The concept helps explain why some compounds dissolve in water, why certain reactions occur, and how molecules interact with each other. Without understanding electronegativity, it would be impossible to predict the properties of most compounds."
+          }
+        ]
+      }
+    ]
+  }
