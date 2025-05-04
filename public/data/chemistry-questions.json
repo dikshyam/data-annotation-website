@@ -1,22 +1,214 @@
 {
     "questions": [
-      {
-        "id": "chem-q1",
-        "text": "Explain the concept of electronegativity and its importance in chemical bonding.",
-        "answers": [
-          {
-            "id": "chem-q1-a1",
-            "text": "Electronegativity is a measure of an atom's ability to attract shared electrons in a chemical bond. Higher electronegativity values indicate a stronger attraction for electrons. The difference in electronegativity between atoms determines the type of bond formed: covalent (small difference), polar covalent (moderate difference), or ionic (large difference). This concept is crucial for predicting molecular properties, reactivity, and behavior in various chemical environments."
-          },
-          {
-            "id": "chem-q1-a2",
-            "text": "Electronegativity refers to how strongly atoms pull electrons toward themselves in a bond. Elements like fluorine and oxygen have high electronegativity, while metals like sodium have low values. When atoms with different electronegativities bond, electrons aren't shared equally, creating polar molecules with partial charges. This affects everything from solubility to reaction mechanisms."
-          },
-          {
-            "id": "chem-q1-a3",
-            "text": "Electronegativity is the tendency of an atom to attract electrons in a chemical bond. It increases across periods and decreases down groups in the periodic table. The concept helps explain why some compounds dissolve in water, why certain reactions occur, and how molecules interact with each other. Without understanding electronegativity, it would be impossible to predict the properties of most compounds."
-          }
-        ]
-      }
+        {
+            "id": "chem-q1",
+            "text": "Polystyrene properties after dissolved by acetone Polystyrene plastic can be dissolved in acetone. I would like to understand: If the dissolved polystyrene will take-out of the acetone and becomes solid again (after all the acetone evaporates), will this solid polystyrene keep the same material properties as it was before the dissolving process? How can I speed-up the solidification of the dissolved plastic?",
+            "answers": [
+                {
+                    "id": "chem-q1-a1",
+                    "text": "What is happening is not actually the polystyrene melting but rather it dissolving in the acetone solvent. This is a physical change and not chemically altering the polymer. It should still retain its chemical properties as before. However, other properties have changed. It is now a poorer insulator since the air pockets have been removed. It will also be more rigid for similar reasons. The acetone ought to be able to be driven off by heating it in a ventilated space as acetone is quite volatile."
+                },
+                {
+                    "id": "chem-q1-a2",
+                    "text": "When polystyrene is dissolved in acetone, it does not undergo a chemical change\u2014it is a physical dissolution. Once the acetone evaporates, the polystyrene re-solidifies but may not retain the original mechanical properties (e.g., tensile strength, flexibility) due to changes in microstructure or porosity. To speed up solidification, you can increase temperature, use a fume hood for airflow, or apply a vacuum to enhance evaporation."
+                }
+            ]
+        },
+        {
+            "id": "chem-q2",
+            "text": "The Chemistry behind creating Polylactic Acid (PLA) I've seen a few videos of persons creating plastics from starch by adding an acid, glycerol, and water, however no explanation of the chemistry. Does anyone know what $\\ce{(C6H10O5)_{n} + C3H8O3 + C2H4O2 + H2O -> (C3H4O2)_{n} + (what)}$? or does it? I only have a basic understanding of organic chemistry, so sorry if the equations don't make sense.",
+            "answers": [
+                {
+                    "id": "chem-q2-a1",
+                    "text": "Polylactic acid polymers are creating a lot of interest these days because they're biodegradable. On the downside, corn starch is often one of the starting materials...and corn is also used as a food source, so there's some controversy [https://www.smithsonianmag.com/science-nature/corn-plastic-to-the-rescue-126404720/?c=y&page=2] over the wisdom of this approach. I think I've found a site that takes the approach you're basing your question on...but there are a couple of issues with the equation you've written. So, I'll answer this question in two parts. Plastic from starch is what you saw in the video; PLA from starch is what you asked about. Plastic from starch. The recipe [https://web.archive.org/web/20130918052759/http://green-plastics.net/discussion/54-student/131-qaa-help-with-cornstarch-pla-plastic-project] for the plastics-from-starch uses starch, glycerol, acetic acid (the $\\ce{C2H4O2}$ in your equation) and water as a solvent. (They do not add lactic acid, the $\\ce{C3H8O3}$ in your equation, but lactic acid can be produced by hydrolysis of the starch.) With the starch-acetic acid-glycerol recipe, you do not actually make a PLA polymer, but a starch polymer that is somewhat like it instead. (Ref [https://web.archive.org/web/20130918070752/http://green-plastics.net/discussion/54-student/132-qaa-i-want-to-make-corn-plastic-utensils]) So, starch is a polymer that looks like this [https://web.archive.org/web/20120514074457/http://djbreile.webs.com:80/reactionmechanism.htm]: In water, it tends to ball up into globular clusters due to hydrogen bonding. By adding acetic acid and heating the starch in water, you \"denature\" the starch and turn it into \"disordered chains\" that stretch out. When you let these disordered chains dry, they become entangled and form a flexible film, the plastic. In this recipe, the glycerol is included as a plasticizer [https://en.wikipedia.org/wiki/Plasticizer], so it is unchanged chemically in the reaction. The glycerol also helps to keep the starch stretched out by stabilizing it with hydrogen bonding. Plasticizers (as the name would indicate) are additives that increase the plasticity of a plastic and make it more durable or flexible. Changing the amount of glycerol in the recipe can have a big effect on the strength of the plastic film you make. This is the process you're seeing in the videos, I think. Making PLA from starch. This is going to be a bit of a challenge to explain depending on your understanding of organic chemistry, but hopefully the pictures will help. When you make PLA commercially, you digest starch, usually with a bacteria [http://www.springerlink.com/content/v14uxt2r823glaex/], to turn it into lactic acid (see picture below for the structure of lactic acid). This lactic acid must be purified to make a high quality product. If you just combine a bunch of lactic acid molecules to make PLA, one water molecule would be lost each time they combine...sort of like this [https://www.materialsworldmodules.org/tai-nguyen/condensation-polymerization/]. (This is an acid and alcohol combining, not two acids, but the idea is the same.) The water in the polymerization reaction leads to a poor quality plastic. So, in commercial synthetic schemes, two purified lactic acid molecules are reacted to form lactide...they come together in a controlled condensation reaction, with the loss of water. (Ref for picture [https://web.archive.org/web/20130621172141/http://wiki.chemprime.chemeddl.org:80/index.php/BIODEGRADABLE_PLASTICS].) Now you can use the lactide, i.e. \"lactic acids with the water removed\", to do the polymerization to PLA. You add an initiator to open the lactic acid by breaking the bond between the $\\ce{O-C}$ in $\\ce{O-C=O}$ and this gives you 2 lactic acid molecules hooked together...which react with another lactide molecule to add two more lactic acid molecules to the growing chain, and so on. And that's how the PLA forms. So the reaction sequence is strach-> lactic acid-> lactide + $\\ce{H2O}$ -> PLA Probably more than you wanted to know!"
+                },
+                {
+                    "id": "chem-q2-a2",
+                    "text": "The process often seen online is not true PLA synthesis but bioplastic-like gel formation. True PLA is synthesized via polycondensation or ring-opening polymerization of lactic acid, not directly from starch. The equation shown doesn't directly yield PLA. Starch (C6H10O5)n must first be hydrolyzed to glucose and then fermented to lactic acid (C3H6O3), which is then polymerized into (C3H4O2)n (PLA) with water as a byproduct."
+                }
+            ]
+        },
+        {
+            "id": "chem-q3",
+            "text": "What are the units of 85000 Molecular Weight of a polymer I have a PVA bottle, which says that the molecular weight (Mw) of PVA is between 85000 - 124000. I know that this means that there are repeated chains of the PVA monomer, but what are the units to the molecular weight (of PVA). Is it $\\frac{\\mathrm{g}}{\\mathrm{mol}}$? I am having trouble grasping this concept. Or does 85000 - 124000 mean the number of monomers in the chain of this PVA?",
+            "answers": [
+                {
+                    "id": "chem-q3-a1",
+                    "text": "First of all $M_w$ is not the number of monomers in a chain of PVA. The number of monomers in a chain is called the degree of polymerization. $\\overline {M_w}$ is the weight average molecular weight. It is a way of determining the molecular mass of a polymer. As polymer molecules have different chain lengths, the average molecular mass will depend on the method of averaging. For example, we can use the number average molecular weight which is based on different type of averaging. As for the unit, it's as you mentioned: g/mol. In biochemistry, they use the dalton (Da) as a mass unit for biopolymers (1 $N_a.$Da= g/mol, where $N_a.$ is the Avogadro number). So, when we say a protein has a molecular weight of 64000 g\u00b7mol$^{\u22121}$, it has also a mass of 64 kDa. P.S. To be rigorous, we have to say ** molecular mass** instead of ** molecular weight**. But this was an old way of naming things."
+                },
+                {
+                    "id": "chem-q3-a2",
+                    "text": "Yes, the molecular weight of a polymer such as PVA is given in grams per mole (g/mol). It represents the mass of one mole of polymer molecules, and the range 85,000\u2013124,000 refers to the average molar mass, not the number of repeating units (which would be the degree of polymerization)."
+                }
+            ]
+        },
+        {
+            "id": "chem-q4",
+            "text": "Is the chemical structure of an amide bond (-CONH) or (-CONH2)? The Dictionary definition of an amide is an organic compound obtained by replacing the \u2212OH group in acids by the \u2212NH 2 group. So from this, I deduced that the bond would be CONH2. But when I searched around, I found some images that showed the bond only had one hydrogen atom, like so: Which is the correct bond structure? I'm looking specifically at the condensation polymerization of diamine and diacarboxylic acid to form nylon. And also, I see online that lots of bond structures (like NH2 and COOH) are prefixed with a dash, so they'd appear like -NH2 and -COOH. Is this just a personal preference, or is there a more elaborate reason behind this? I'm currently doing the GCSEs. Thanks",
+            "answers": [
+                {
+                    "id": "chem-q4-a1",
+                    "text": "Amides are derivative of carboxylic acids. It consists of 2 parts, and the bond between carbonyl carbon and nitrogen of ammonia is called is amide bond. The bond structure of 1\u00b0 amides is as shown in the figure. What you have shown in the question is bond structure of 2\u00b0 amide, which can be obtained by removing 1 hydrogen from 1\u00b0 amide. Now if you observe structure of nylon, you will see there are n numbers of 2\u00b0 amides. And also, I see online that lots of bond structures (like NH2 and COOH) are prefixed with a dash, so they'd appear like -NH2 and -COOH. Is this just a personal preference, or is there a more elaborate reason behind this? The dash means it is Functional Group [https://en.wikipedia.org/wiki/Functional_group] like -R means hydrocarbyl functional group, -COOH means carboxylic acid functional group, etc."
+                },
+                {
+                    "id": "chem-q4-a2",
+                    "text": "An amide group in a polymer chain typically refers to the -CONH- linkage formed during condensation polymerization (e.g., in nylon). The -CONH2 group is a terminal amide, found at chain ends or in small molecules. The dash (-) indicates the group is a substituent or within a chain. So, -CONH- is correct for the polymer backbone."
+                }
+            ]
+        },
+        {
+            "id": "chem-q5",
+            "text": "Combination of polydisperse polymer mixtures Say I'm given a mixture of batches of polydisperse polymers. I know the weight $w$, the number average $ \\bar M_n$, and the weight average $ \\bar M_w$ of each batch that was added to the final mixture. How would I go about calculating the $\\bar M_w, \\bar M_n$ and PD of the final mixture? I'm thinking that the $\\bar M_w$ value would simply be a weighted average of each of the batches, but I'm not quite sure how to get the number average. In math, I'm thinking that $\\bar M_{w,final} = \\frac{\\Sigma_{i} w_i \\bar M_{w,i}}{\\Sigma_i w_i} $ I haven't been able to reason what I should do to account for the differing numbers of molecules/moles of each batch. I think it should also be a weighted average, but using the numbers of each batch for weighting instead of the weight, but how would I calculate that? Thank you",
+            "answers": [
+                {
+                    "id": "chem-q5-a1",
+                    "text": "It should not be difficult to derive either of the number-averaged molecular weight or weight-averaged molecular weight by their definitions. To avoid ambiguity, I will use $i$ as the index of each actual length of chains and $b$ as the index of batches. First, the definitions: $\\bar{M}_\\mathrm{n,final}=\\frac{\\Sigma_in_iw_i}{\\Sigma_in_i}$ $\\bar{M}_\\mathrm{w,final}=\\frac{\\Sigma_in_iw_i^2}{\\Sigma_in_iw_i}$ where $n$ and $w$ are number and molecular weight of each chain length. The numerator of $\\bar{M}_\\mathrm{n,final}$ is, in fact, the total mass of the mixture. Hence, $\\Sigma_in_iw_i=\\Sigma_bw_b$. The denominator is the total number of chains. Hence, $\\Sigma_in_i=\\Sigma_bn_b=\\Sigma_b\\frac{w_b}{\\bar{M}_\\mathrm{n,b}}$. It is slightly more complicated in the case of $\\bar{M}_\\mathrm{w,final}$ but you got it correct. Feel free to ignore my derivation. The numerator does not have a straightforward definition. It has to be derived from the $\\bar{M}_\\mathrm{w,b}$ instead. $\\Sigma_in_iw_i^2=\\Sigma_b\\Sigma_{i,b}n_{i,b}w_{i,b}^2=\\Sigma_b\\bar{M}_\\mathrm{w,b}w_b$. Since we have already defined the $\\Sigma_in_iw_i$ above, we can have the final equation. $\\bar{M}_\\mathrm{n,final}=\\frac{\\Sigma_bw_b}{\\Sigma_b\\frac{w_b}{\\bar{M}_\\mathrm{n,b}}}$ $\\bar{M}_\\mathrm{w,final}=\\frac{\\Sigma_b\\bar{M}_\\mathrm{w,b}w_b}{\\Sigma_bw_b}$ $\\bar{M}_\\mathrm{w,final}/\\bar{M}_\\mathrm{n,final}=\\frac{\\Sigma_b\\frac{w_b}{\\bar{M}_\\mathrm{n,b}}\\Sigma_b\\bar{M}_\\mathrm{w,b}w_b}{(\\Sigma_bw_b)^2}$"
+                },
+                {
+                    "id": "chem-q5-a2",
+                    "text": "To compute number average molecular weight (Mn): Mn_final = (\u03a3(w_i * Mn_i / Mw_i)) / \u03a3(w_i / Mw_i). The weight average Mw is indeed a weighted average: Mw_final = \u03a3(w_i * Mw_i) / \u03a3(w_i). Polydispersity = Mw_final / Mn_final."
+                }
+            ]
+        },
+        {
+            "id": "chem-q6",
+            "text": "gyration radius of short freely jointed chain with excluded volume The freely jointed chain model without excluded volume has the following gyration radius, $$ \\langle R_g^2 \\rangle=\\frac{1}{6}\\frac{N+2}{N+1}Na^2 $$ where $N$ is the number of bonds and $a$ their length. Now that I have added to my simulations a Lennard-Jones potential between non bonded beads (I take $\\sigma=1.5a$), $$ V_{LJ}=4\\epsilon\\left(\\left(\\frac{\\sigma}{r}\\right)^{12}-\\left(\\frac{\\sigma}{r}\\right)^{6}\\right) \\ \\text{for} \\ r<2^{1/6}\\sigma $$ I wanted to check the gyration radius I get. I don't hope to find an analytical formula like the previous one but some approximation which works good for low $N$. Searching on the internet I found this article [https://www.semanticscholar.org/paper/Renormalization%E2%80%90group-scaling-theory-for-flexible-Chen-Noolandi/c709592d6c4737f600ff8457d3e783682a272cfa], which proposes the following equations for the gyration radius, $$ \\langle R_g^2 \\rangle=\\frac{1}{6}Na^2\\alpha^2(\\bar{u},z) $$ $$ \\alpha^{5.643}(\\bar{u},z)-(1-\\bar{u})\\alpha^{0.395}(\\bar{u},z)=2.9713z $$ where $\\bar{u}=(1/0.1777)(3/(2\\pi))^{3/2}w/a$ and $z=(3/(2\\pi))^{3/2}w\\sqrt{N}/a$. I'm not entirely sure how this equations are derived as they use renormalization group theory which I'm not familiar with and I don't know either what is the value of $w$ in my case (is it related to $\\sigma$?). However I believe they are considering a continuum model and in fact for $N=1$ where there are only two beads and therefore excluded volume doesn't modify anything it gives (if I have solved it correctly) a different prediction for $\\langle R_g^2 \\rangle$ than the first formula.",
+            "answers": [
+                {
+                    "id": "chem-q6-a1",
+                    "text": "When your joints aren't free What's the next thing you see? It's an angle With joints correlated Your chain's free-rotated [http://polymerdatabase.com/polymer%20physics/Freely-Rotating%20Chain.html] With an angle $\\overline{\\cos \\theta}$ was once null But now the LJ hull Gives an angle If your chain's short at all Long-range terms become small Says the angle Integrate $$ \\int_0^\\pi \\cos \\theta \\exp(-\\beta U[\\theta]) \\mathrm{d} \\theta \\tag{1}$$ to get $\\alpha$ Then $$ \\langle R^2 \\rangle = n l^2 \\left(\\frac{1 + \\alpha}{1 - \\alpha} - \\frac{2(1-\\alpha^n)}{n(1-\\alpha)^2} \\right) \\tag{2}$$ is what you're after! (Here $U[\\theta]$ is the LJ energy imparted across the angle between two links by the bead-bead interaction: $$ U[\\theta] = U_{LJ} (r (\\theta)), r^2(\\theta) = 2l^2(1+ \\cos \\theta) $$ and $l$ is the bond length and $\\beta = 1/(k_B T)$ is the Boltzmann factor. The integral (1) thus gives the Boltzmann-weighted average of $\\cos \\theta$ over the LJ interaction, where $\\theta$ is the angle-from-parallel as conventionally used in polymer physics -- that is, $\\theta = 0$ when successive links are parallel and fully extended, and $\\theta = \\pi$ when successive links are anti-parallel. This average will now be positive because successive links can no longer \"double back\" on themselves, where the equivalent quantity for the free-jointed chain is zero.)"
+                },
+                {
+                    "id": "chem-q6-a2",
+                    "text": "The Lennard-Jones potential introduces excluded volume effects, increasing chain swelling. The RG\u00b2 scaling law using \u03b1\u00b2(u\u0304, z) is from renormalization group theory and depends on solvent quality and excluded volume parameter w, which is related to \u03c3 but not directly equal. For N=1, discrepancies arise since the scaling law applies for large N, so small-N deviations are expected."
+                }
+            ]
+        },
+        {
+            "id": "chem-q7",
+            "text": "why is laser printer toner magnetic? I had an old toner cartridge lying around, so I took it apart and emptied the toner into a jar. I had heard that one could make a ferromagnetic fluid [https://www.youtube.com/watch?v=vsQh1AT6qUE] using toner powder and oil, so I mixed a little powder with some kerosene that I had on hand. Turns out, kerosine does something wierd to the polymer part of the toner, and instead of becoming a solution, the toner powder coagulated into a rubbery mass that had a consistency similar to chewing gum. When I put a powerful magnet from a hard drive next to it, the ball was attracted to it, which surprised me a little, as I had seen on wikipedia that toner had no magnetic components (any more) So, the questio is, Why is printer toner powder magnetic? Is it because carbon is paramagnetic? Also, what happened to the polymer when kerosine was added? EDIT A clarification- I think the polymer is a resin (based on what the kerosene did to it)",
+            "answers": [
+                {
+                    "id": "chem-q7-a1",
+                    "text": "One of the major ingredients in modern printer toner cartridges (for laser printers) is magnetite, Fe3O4. It is used a charge control ingredient, known as a triboelectrification agent. 'Tribo' comes from the Greek meaning 'to rub' (carfeul if you google that one), and essentially refers to the creation of static charge through friction. This is required to have the printer particles stick to the paper. You can read about triboelectrification here [https://en.wikipedia.org/wiki/Triboelectric_effect]. Magnetite, of course, is magnetic, and this is why your toner can produce a ferromagnetic fluid. Other ingredients in toner cartridges include waxes, polymers and pigments. Many formulations are water or alcohol based and the toner is actually prepared as an emulsion which is filtered and dried. In order to get this material dissolved into kerosene, you probably need to add an emulsifying agent. Oleic acid [https://en.wikipedia.org/wiki/Oleic_acid] is commonly used to achieve this, as it is a long chain acid that has both polar (hydrophilic) and non-polar (hydrophobic) properties."
+                },
+                {
+                    "id": "chem-q7-a2",
+                    "text": "Toner contains magnetite (Fe3O4) or similar materials to allow for electrophotographic control. Modern toners may still contain magnetic particles even if not explicitly marketed. Kerosene disrupted the polymer matrix, possibly swelling or dissolving it unevenly, leading to coagulation. Carbon is weakly paramagnetic but not enough to account for the magnetic behavior."
+                }
+            ]
+        },
+        {
+            "id": "chem-q8",
+            "text": "What happens to the chlorine in epichlorohydrin when a two-part epoxy is air-cured? Where does the chlorine go? Does it evaporate as a by-product or does it remain in the epoxy? I'm using a two-part resin and hardener and curing them at room temp. The resin is bisphenol-A-epichlorohydrin, and I believe the final cured epoxy does not have chlorine as a part of its main structure. I need to know the whereabouts of Cl because I'm trying to study neutron interaction with materials in my detector, and I suspect there's some chlorine in there but not sure entirely.",
+            "answers": [
+                {
+                    "id": "chem-q8-a1",
+                    "text": "There is little if any chlorine in a epichlorohydrin / bis phenol A expoxy resin, it is normally lost during production as sodium chloride into the aqueous phase while the resin forms an organic phase. The normal way to make the resin is to react bisphenol A with sodium hydroxide and the epichlorohydrin. What happens is that a mixture of the three reagents and water is heated up together. The phenol groups on the bisphenol A are deprotonated and then they attack the epichlorohydrin to then form 2,2'-(((propane-2,2-diylbis(4,1-phenylene))bis(oxy))bis(methylene))bis(oxirane). The epoxide (oxirane) groups in this then react with phenolate anions from new bisphenol A molecules to form 4,4'-((((((propane-2,2-diylbis(4,1-phenylene))bis(oxy))bis(2-hydroxypropane-3,1-diyl))bis(oxy))bis(4,1-phenylene))bis(propane-2,2-diyl))diphenol. The unreacted phenol groups on this then are reacted with more epichlorohydrin to form new reactive groups. This reaction continues on and on to form a polymer, it is normal to use a small excess of epichlorohydrin to give a epoxy terminiated polymer (resin). This is then reacted with a cross linking agent such as an amine to form the final epoxy. As a result the chlorine content of the epoxy should be very very low."
+                },
+                {
+                    "id": "chem-q8-a2",
+                    "text": "In bisphenol-A-epichlorohydrin resins, the chlorine from epichlorohydrin is typically eliminated during synthesis as NaCl, forming an ether linkage. The final cured epoxy does not retain chlorine in its structure, so minimal chlorine should be present unless unreacted monomers remain."
+                }
+            ]
+        },
+        {
+            "id": "chem-q9",
+            "text": "Polymer Slurry used in boring foundation holes? I watched a video on the construction of Burj Khalifa [http://en.wikipedia.org/wiki/Burj_Khalifa], Dubai. The construction engineers answered that they're using a special type of protection known as Cathodic protection [http://en.wikipedia.org/wiki/Cathodic_protection] to protect from the corrosion due to local ground water. They told a compound named \"Polymer Slurry [http://www.ritchiewiki.com/wiki/index.php/Burj_Dubai#Preparing_the_Foundation]\" (What's that?). They're using viscous Polymer Slurry as their basic coat to dump the high density & low permeability concrete in order to create a \"GOOD FOUNDATION\". What is it made of? (Simply any polymer?) And what does it do? Does it actually repel water? Many organic compounds repel water... Then Why this?",
+            "answers": [
+                {
+                    "id": "chem-q9-a1",
+                    "text": "After reading the link provided in the question [http://www.ritchiewiki.com/wiki/index.php/Burj_Dubai#Preparing_the_Foundation], and doing a little googling, of \"polymer slurry\" and \"foundation\", I found something useful. Polymer slurry [http://www.ashland.com/products/sc-50-fluidized-polymer-slurry] seems to be made of one or more hydrophilic superabsorbent [http://en.wikipedia.org/wiki/Superabsorbent_polymer] polymers, such as polyethylene glycol, polyvinyl alcohol, or carboxymethylcellulose that produce a thick viscous slurry when mixed with water. It does not repel water so much as the opposite. It is so hydrophilic that it absorbs water before the water can reach the concrete or the steel. Then this slurry becomes thicker the more water it absorbs so that the rate of diffusion of water through the slurry decreases. Ultimately, this action creates a hydrogel [http://en.wikipedia.org/wiki/Hydrogel#Hydrogels], which may be quite strong, despite being mostly water, due to extensive hydrogen bond crosslinks. Other applications of polymer slurry seem to be in the drilling industry to modulate the viscosity of drilling fluids."
+                },
+                {
+                    "id": "chem-q9-a2",
+                    "text": "Polymer slurry is often made of synthetic polymers like partially hydrolyzed polyacrylamide or natural polymers like guar gum. It helps stabilize boreholes by forming a low-permeability lining, suspending cuttings, and preventing collapse. While not strictly hydrophobic, it resists water infiltration and supports excavation."
+                }
+            ]
+        },
+        {
+            "id": "chem-q10",
+            "text": "Are the bonds in the monomers at the end of a polymer filled or unfilled? In polymers the bonds between monomers are changed, usually from double to single1, to form a long-chain polymer with the now single bond joining another monomer. But in the monomers at the very ends of a polymer chain, there is an unfilled bond, a carbon atom with only three bonds filled. During the polymerization process are those unfilled bonds left unfilled, or is there some process that fills those bonds with, say, another hydrogen atom? I say this because I don't know if there are any polymers made where the bond inside the original monomer is a triple bond. In all the commonly used plastics (those that have recycling symbols) the original monomers have double bonds between the carbon atoms.",
+            "answers": [
+                {
+                    "id": "chem-q10-a1",
+                    "text": "You are asking about polymers made by radical polymerization [https://en.wikipedia.org/wiki/Radical_polymerization]. But in the monomers at the very ends of a polymer chain, there is an unfilled bond, a carbon atom with only three bonds filled. During polymerization this is true, the radical will continue to react with monomer and propagate the polymerization, but the radical does not sit in the bulk. There are a number of ways which an additional atom amy bond with the carbon radical in a process called termination [https://en.wikipedia.org/wiki/Radical_polymerization#Termination]. Typically this is done by combination or inhibition. Combination is the process where two radicals come together to form a bond leaving no free radicals to continue the reaction. This may occur when two radical chains combine or when a selected radical is added to cease the reaction. This radical could be the other half of the initiator which began the radical polymerization. Combination of two polymerizing chains. Combination of polymerizing chain with radical For inhibition, a radical combines with a molecule that can form a stable radical such as oxygen or butylated hydroxytoluene (BHT) [https://en.wikipedia.org/wiki/Butylated_hydroxytoluene]. Radical chain combining with oxygen to form stable, non-ractive radical. In these cases the radical will eventually find a stray radical or atom to bond with (like water), the unstable carbon radical will not exist permanently. I say this because I don't know if there are any polymers made where the bond inside the original monomer is a triple bond. In all the commonly used plastics (those that have recycling symbols) the original monomers have double bonds between the carbon atoms. Polyacetylene [https://en.wikipedia.org/wiki/Polyacetylene] uses a triply bonded monomer in its production."
+                },
+                {
+                    "id": "chem-q10-a2",
+                    "text": "Unfilled valences at polymer chain ends are typically capped during polymerization\u2014commonly with hydrogen, OH, or functional end-groups. So, no unfilled valences remain. Polymers with triple bonds are rare due to instability and are not typical in commercial plastics."
+                }
+            ]
+        },
+        {
+            "id": "chem-q11",
+            "text": "Is benzene a polymer of ethyne? In one of my classes, my teacher told me that benzene can be formed by cyclic polymerization of ethyne. But I think that benzene isn't a polymer because only 3 ethyne molecules are combining to form benzene whereas, thousands of monomers are combined to form a polymer in a polymerization reaction. So, after all, can benzene be called a polymer of ethyne?",
+            "answers": [
+                {
+                    "id": "chem-q11-a1",
+                    "text": "The scientist who coined the term polymer, J\u00f6ns Jacob Berzelius, used the word to refer to different substances which had the same empirical formula [https://en.wikipedia.org/wiki/J%C3%B6ns_Jacob_Berzelius#New_chemical_terms]. In this sense, benzene is a polymer of ethyne (acetylene), because benzene $\\ce{C6H6}$ and ethyne $\\ce{C2H2}$ have the same empirical formula, namely $\\ce{CH}$. In other words, all substances with molecular formula $\\ce{(CH)_x}$ were polymers of the smallest unit in the family (in this case, $\\ce{C2H2}$, because $\\ce{CH}$ molecules are only known as extremely fleeting species on Earth, though they are abundant in space). However, that was back in the 1830s, when we had no clue about atomic and molecular structure (in 1808, one of the eminent chemists of the time, John Dalton, defended $\\ce{HO}$ as the formula for water). The meaning of the term has evolved over time to accommodate our increase in knowledge. The most current IUPAC recommendations on polymer nomenclature (Compendium of Polymer Terminology and Nomenclature - IUPAC Recommendations 2008 [https://iupac.org/cms/wp-content/uploads/2016/01/Compendium-of-Polymer-Terminology-and-Nomenclature-IUPAC-Recommendations-2008.pdf]) states the definition of polymer as: A polymer is a substance composed of macromolecules. And, fortunately, they also define a macromolecule as: Molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass. Note 1: In many cases, especially for synthetic polymers, a molecule can be regarded as having a high relative molecular mass if the addition or removal of one or a few of the units has a negligible effect on the molecular properties. This statement fails in the case of certain properties of macromolecules which may be critically dependent on fine details of the molecular structure, e.g., the enzymatic properties of polypeptides. Note 2: If a part or the whole of the molecule has a high relative molecular mass and essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, it may be described as either macromolecular or polymeric, or by polymer used adjectivally. Note 3: In most cases, the polymer can actually be made by direct polymerization of its parent monomer but in other cases, e.g., poly(vinyl alcohol), the description \u2018conceptual\u2019 denotes that an indirect route is used because the nominal monomer does not exist. As you can see, there is quite a bit of detailing to try to keep things consistent. Observe that the definition speaks of high relative molecular mass, and this point is expanded upon in Note 1. With these considerations, benzene is not a polymer - it is certainly a very small molecule, and adding or removing a portion of it (presumably cyclooctatetraene [https://en.wikipedia.org/wiki/Cyclooctatetraene] $\\ce{C8H8}$ and cyclobutadiene [https://en.wikipedia.org/wiki/Cyclobutadiene] $\\ce{C4H4}$, respectively) would result in a substance with drastically different properties. In some sense, Berzelius wasn't really wrong to call benzene a polymer, because for all he knew back then, benzene could well have the formula $\\ce{C20000H20000}$ (actually, it was not widely believed that \"large\" molecules could exist at all, with some resistance to the idea existing as late as the 1920s-1930s). He did the best with what knowledge was available to him. But now we can do better, and it just is more convenient and self-consistent to not label benzene as a polymer. This isn't to say that, however, that benzene and ethyne are completely chemically unrelated. There is in fact a close relationship, in that ethyne can efficiently undergo a [2+2+2] cycloaddition reaction to form benzene. This is not exploited industrially, however, as there are much cheaper (and safer) ways of making it."
+                },
+                {
+                    "id": "chem-q11-a2",
+                    "text": "Benzene can be formed via trimerization of ethyne, but this is not considered polymerization. A polymer consists of repeating units over many monomers. Since benzene forms from only 3 ethyne units, it\u2019s better called a trimer, not a polymer."
+                }
+            ]
+        },
+        {
+            "id": "chem-q12",
+            "text": "How to liquefy or extract water from superabsorbent polymer? I am looking for a good way to liquefy or extract water from superabsorbent polymer. From what I remember it was salt that can liquefy it. Since salt when dissolved will have sodium cation and therefore naturalize the polymer chain making it contract. Is that true?",
+            "answers": [
+                {
+                    "id": "chem-q12-a1",
+                    "text": "This may be true, but I suggest another type of explanation. If a super absorbent polymer absorbs its maximum in distilled water it is called a fully swollen hydrogel. There are two ways of decreasing the amount of water stored without using heat. The first one is to increase the salt load of additional water and place the hydrogel within this salted water. The salt in the water will decrease the total water absorbed by the hydrogel and the hydrogel will shrink, giving up some of its water. A more complete and full way to make the hydrogel to give up its water is the addition of an acid. Lowering the pH of the hydrogel to below 3.5 will convert all the sodium carboxylates to the free acid form which does not absorb water. These hydrogels are pH-sensitive, and if you plot pH vs absorbed fluid, you would find a bell curve that starts around 4.5 or 5.0, tops out around 7.5 and decreases as you increase the pH until around 10.5 to 11.0."
+                },
+                {
+                    "id": "chem-q12-a2",
+                    "text": "Yes, salt (NaCl) can collapse a superabsorbent polymer by screening the negative charges on the polymer backbone, reducing osmotic pressure and expelling water. This is due to ion exchange and charge neutralization."
+                }
+            ]
+        },
+        {
+            "id": "chem-q13",
+            "text": "Do all polymers contain either carbon or silicon? Is either carbon or silicon present in every known polymer? If not, is there a small group of elements that, between them, are present in every known polymer, or can polymers be based on a lot of different elements?",
+            "answers": [
+                {
+                    "id": "chem-q13-a1",
+                    "text": "No, neither C nor Si have to be present in a polymer. IUPAC defines polymer [https://goldbook.iupac.org/html/P/P04735.html] simply as A substance composed of macromolecules. In turn, there is no limitations on the elements the macromolecules [https://goldbook.iupac.org/html/M/M03667.html] may consist of. In fact, there is an extensive class of inorganic polymers [https://en.wikipedia.org/wiki/Inorganic_polymer] free of carbon and silicon."
+                },
+                {
+                    "id": "chem-q13-a2",
+                    "text": "Most polymers are organic and carbon-based, while some inorganic polymers (e.g., silicones) contain silicon. While C and Si dominate, polymers based on elements like boron, phosphorus, sulfur, or nitrogen also exist, though they are less common."
+                }
+            ]
+        },
+        {
+            "id": "chem-q14",
+            "text": "Does Sugru (Formerol) decay underwater? Sugru [https://en.wikipedia.org/wiki/Sugru] is described as waterproof and dishwasher-safe, but I still wonder if it will decay quickly (within months) if submerged in room-temperature tap water. Aren't silicone rubbers susceptible to hydrolysis?",
+            "answers": [
+                {
+                    "id": "chem-q14-a1",
+                    "text": "First, the silicone monomer does hydrolyze in water, causing crosslinking [https://www.sciencedirect.com/topics/engineering/condensation-cure-silicone]. However, the resultant crosslinked polymer is stable. Second, silicone is, one might say, rabidly hydrophobic [https://link.springer.com/article/10.1007/s12633-014-9188-0]. For water to cause degradation, it would have to penetrate, but is confined to the surface. However, silicones are highly permeable to water vapor [https://www.versaperm.com/materials/Silicone%20and%20vapour%20permeability.php]. so degradation might occur, depending on the formulation and additives. As for the specifics for the proprietary formulation for Sugru, you'd need to test if it meets a specific need. It's ~50-75% silanes, the remainder talc and other substances, so that would would change its water resistance."
+                },
+                {
+                    "id": "chem-q14-a2",
+                    "text": "Sugru is a silicone-based material, which is generally hydrolysis-resistant. It remains stable in water at room temperature for long durations. While extreme conditions (high temperature, strong acids/bases) may degrade silicones, regular water exposure should not significantly degrade Sugru."
+                }
+            ]
+        },
+        {
+            "id": "chem-q15",
+            "text": "Physical gelation result in a single massive polymer chain? Physically crosslinking PVA polymers using the freeze-thaw method (Peppas 1975) results in regions of interconnected PVA polymers through crystalline regions formed when frozen and which persist after thawing. These physical crosslinks are sufficient to produce a homogenous hydrogel of predictable bulk characteristics. The formation of Jello gelatin uses a similar phenomenon. My question is: Are these crystalline regions only available to form at the free ends of the polymer chains, or can these lamellae form along any portion of the polymer chain? If crystallization were only able to occur at free ends of the chain, this would result in a massively long polymer chain (assuming tip to tail occurred for many polymer chains in the solution) and as such the bulk polymer might be defined as a tangled network.",
+            "answers": [
+                {
+                    "id": "chem-q15-a1",
+                    "text": "The physical alignments can occur anywhere. Keep in mind that these regions are both inter- and intra- molecular. (CH4 can't align with itself, but CH3(CH2)1000CH3 can and does.)"
+                },
+                {
+                    "id": "chem-q15-a2",
+                    "text": "Crystalline regions in freeze-thaw PVA gels can form along the polymer chain, not just at ends. Thus, they create a network of crosslinks throughout the material, not a single long polymer. This results in a gel matrix, not a single chain."
+                }
+            ]
+        }
     ]
-  }
+}
