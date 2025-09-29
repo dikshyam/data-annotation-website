@@ -16,6 +16,7 @@ const submitPreferenceData = (response) => {
   const data = {
     timestamp: response.timestamp,
     domain: response.domain,
+    userEmail: response.userEmail,
     questionId: response.questionId,
     questionText: response.questionText,
     qid: response.qid,
@@ -40,7 +41,7 @@ const submitPreferenceData = (response) => {
   console.log('Submitting data:', JSON.stringify(data, null, 2));
 
   // Submit to preference-specific Google Sheets endpoint
-  fetch('https://script.google.com/macros/s/AKfycbxbcr5_gC8_YcP1atFkdPgZi2z3nhf_v5WSiVVU-_oYSJAEA0t8QEZFWwJIgQ8Bd7iFAA/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbxv-kGgCXL2Q5OWq5c4VeboIu9uzpst_nAof4jcAd-pXZO1FuaZIhuAfesZExdxs5Yotw/exec', {
     method: 'POST',
     mode: 'no-cors',
     headers: {
@@ -57,15 +58,16 @@ const submitRegularData = (response) => {
   const data = {
     timestamp: response.timestamp,
     domain: response.domain,
+    userEmail: response.userEmail,
     questionId: response.questionId,
     questionText: response.questionText,
-    experimentalProperties: response.experimentalProperties,
+    polymerDetails: response.polymerDetails,
     answers: response.answers,
-    generalComments: response.generalComments
+    // generalComments: response.generalComments
   };
 
   // Submit to existing Google Sheets endpoint
-  fetch('https://script.google.com/macros/s/AKfycbyh7u_arPROGEALaiEqxXHEyMQnJHjfgfSTl7uH0XtfAu0X3D3_lukTgCOd4SSQZykk9A/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbzKEgPf6pUzP86rsz7ZK095AScLbBwff4OqoERQD9b6B_b3Fl49VO_1yje2sGsO87NMkQ/exec', {
     method: 'POST',
     mode: 'no-cors',
     headers: {

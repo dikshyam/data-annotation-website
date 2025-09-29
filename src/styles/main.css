@@ -82,8 +82,8 @@ button:disabled {
 
 .app-content {
   flex: 1;
-  padding: 2rem;
-  max-width: 1000px;
+  padding: 1rem;
+  max-width: 1500px;
   margin: 0 auto;
   width: 100%;
 }
@@ -128,35 +128,231 @@ button:disabled {
 .change-domain-btn:hover {
   background: rgba(255, 255, 255, 0.2);
 }
-
-/* Domain Selection */
+/* Domain Selection with Instructions */
 .domain-selection {
-  text-align: center;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 
-.domain-buttons {
+.instructions-section {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.domain-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.domain-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 25px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.domain-card:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+}
+
+.domain-header {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.domain-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.task-type {
+  background-color: #007bff;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.domain-instructions {
+  margin-bottom: 25px;
+}
+
+.domain-instructions h4 {
+  color: #007bff;
+  margin: 15px 0 10px 0;
+  font-size: 16px;
+}
+
+.domain-instructions ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.domain-instructions li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.domain-instructions p {
+  margin: 10px 0;
+  color: #666;
+  font-style: italic;
 }
 
 .domain-button {
-  padding: 2rem 3rem;
-  font-size: 1.2rem;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
   border-radius: 8px;
+  cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: var(--box-shadow);
-  width: 220px;
 }
 
-.domain-button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+.domain-button.knowledge-distillation {
+  background-color: #28a745;
+  color: white;
 }
 
+.domain-button.knowledge-distillation:hover {
+  background-color: #218838;
+}
+
+.domain-button.response-preference {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.domain-button.response-preference:hover {
+  background-color: #5a32a3;
+}
+
+.general-notes {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.general-notes h4 {
+  color: #856404;
+  margin-top: 0;
+}
+
+.general-notes ul {
+  margin-bottom: 0;
+}
+
+.general-notes li {
+  margin-bottom: 8px;
+  color: #856404;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .domain-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+/* Two-column layout with matching heights */
+.knowledge-distillation .two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 20px 0;
+  align-items: start; /* Align to top */
+}
+
+.left-column {
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  min-height: 500px; /* Minimum height to match right column */
+}
+
+.right-column {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  min-height: 500px; /* Match left column minimum */
+  /* Remove max-height and overflow to let it grow naturally */
+}
+
+/* Answer separator */
+.answer-separator {
+  height: 3px;
+  background: linear-gradient(to right, #007bff, #6f42c1, #007bff);
+  margin: 30px 0;
+  border-radius: 2px;
+  position: relative;
+}
+
+.answer-separator::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 3px solid #007bff;
+  border-radius: 50%;
+}
+
+.answer-separator::after {
+  content: "VS";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #007bff;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.polymer-details-structured {
+  background-color: #e8f5e8;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #28a745;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.polymer-line {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
 /* Question Container */
 .question-container {
   background: #f9f9f9;

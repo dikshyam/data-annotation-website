@@ -1,31 +1,27 @@
-// RatingSystem.js - Rating criteria component with reset function
+// RatingSystem.js - Updated with Relevance, Coverage, Accuracy, Overall Rating
 import React, { useState, forwardRef, useImperativeHandle } from 'react';
 
 const RatingSystem = forwardRef(({ onRatingChange }, ref) => {
   const criteria = [
-    { id: 'accuracy', label: 'Accuracy' },
-    { id: 'completeness', label: 'Completeness' },
-    { id: 'clarity', label: 'Clarity' },
-    { id: 'relevance', label: 'Relevance' },
-    { id: 'overall', label: 'Overall Quality' }
+    { id: 'relevance', label: 'Relevance', required: false },
+    { id: 'coverage', label: 'Coverage', required: false },
+    { id: 'accuracy', label: 'Accuracy', required: false },
+    { id: 'overall', label: 'Overall Rating', required: true }
   ];
 
   const [ratings, setRatings] = useState({
-    accuracy: 0,
-    completeness: 0,
-    clarity: 0,
     relevance: 0,
+    coverage: 0,
+    accuracy: 0,
     overall: 0
   });
 
-  // Expose the resetRatings method to parent components
   useImperativeHandle(ref, () => ({
     resetRatings: () => {
       setRatings({
-        accuracy: 0,
-        completeness: 0,
-        clarity: 0,
         relevance: 0,
+        coverage: 0,
+        accuracy: 0,
         overall: 0
       });
     }
@@ -53,7 +49,10 @@ const RatingSystem = forwardRef(({ onRatingChange }, ref) => {
       {criteria.map(criterion => (
         <div key={criterion.id} className="rating-criterion">
           <div className="criterion-header">
-            <div className="criterion-label">{criterion.label}</div>
+            <div className="criterion-label">
+              {criterion.label}
+              {criterion.required && <span className="required-asterisk"> *</span>}
+            </div>
             {ratings[criterion.id] > 0 && (
               <div className="rating-label">
                 {getRatingLabel(ratings[criterion.id])} ({ratings[criterion.id]}/5)

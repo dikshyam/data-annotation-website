@@ -1,3 +1,4 @@
+// DomainSelection.js - Updated with instructions
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -12,19 +13,93 @@ function DomainSelection({ onDomainSelect }) {
   return (
     <div className="domain-selection">
       <h2>Select Your Domain</h2>
-      <div className="domain-buttons">
-        <button 
-          className="domain-button knowledge-distillation"
-          onClick={() => handleDomainClick('Knowledge Distillation')}
-        >
-          Knowledge Distillation
-        </button>
-        <button 
-          className="domain-button response-preference"
-          onClick={() => handleDomainClick('Response Preference')}
-        >
-          Response Preference
-        </button>
+      
+      <div className="instructions-section">
+        <h3>Instructions</h3>
+        <p>Please read the instructions for each task carefully before beginning your evaluation.</p>
+      </div>
+
+      <div className="domain-grid">
+        {/* Knowledge Distillation Card */}
+        <div className="domain-card">
+          <div className="domain-header">
+            <h3>Knowledge Distillation</h3>
+            <span className="task-type">Rating Task</span>
+          </div>
+          
+          <div className="domain-instructions">
+            <h4>What you'll do:</h4>
+            <ul>
+              <li>Review polymer science questions with detailed molecular information</li>
+              <li>Evaluate <strong>3 different answers</strong> for each question</li>
+              <li>Rate each answer on 4 criteria: Relevance, Coverage, Accuracy, and Overall Rating</li>
+              <li>Only <strong>Overall Rating is required</strong> - others are optional</li>
+              <li>Provide optional comments for each answer</li>
+            </ul>
+            
+            <h4>Layout:</h4>
+            <ul>
+              <li><strong>Left side:</strong> Question text and polymer details (reference)</li>
+              <li><strong>Right side:</strong> Three answers to rate individually</li>
+            </ul>
+            
+            <h4>Rating scale:</h4>
+            <p>1 = Poor, 2 = Fair, 3 = Good, 4 = Very Good, 5 = Excellent</p>
+          </div>
+          
+          <button 
+            className="domain-button knowledge-distillation"
+            onClick={() => handleDomainClick('Knowledge Distillation')}
+          >
+            Start Knowledge Distillation
+          </button>
+        </div>
+
+        {/* Response Preference Card */}
+        <div className="domain-card">
+          <div className="domain-header">
+            <h3>Response Preference</h3>
+            <span className="task-type">Comparison Task</span>
+          </div>
+          
+          <div className="domain-instructions">
+            <h4>What you'll do:</h4>
+            <ul>
+              <li>Compare multiple AI-generated responses to scientific questions</li>
+              <li><strong>Select the best answer</strong> from the available options</li>
+              <li>Rate your selected answer on quality criteria</li>
+              <li>Explain your preference in comments</li>
+            </ul>
+            
+            <h4>Focus areas:</h4>
+            <ul>
+              <li>Scientific accuracy and completeness</li>
+              <li>Clarity of explanation</li>
+              <li>Relevance to the question asked</li>
+              <li>Overall quality and usefulness</li>
+            </ul>
+            
+            <h4>Your task:</h4>
+            <p>Choose which response best answers the scientific question and rate answers individually.</p>
+          </div>
+          
+          <button 
+            className="domain-button response-preference"
+            onClick={() => handleDomainClick('Response Preference')}
+          >
+            Start Response Preference
+          </button>
+        </div>
+      </div>
+      
+      <div className="general-notes">
+        <h4>General Notes:</h4>
+        <ul>
+          <li>You can switch between tasks at any time using the "Change Domain" button</li>
+          <li>Your progress is automatically saved</li>
+          <li>Questions you've already reviewed will not be shown again</li>
+          <li>Each question needs 3 total reviews before completion</li>
+        </ul>
       </div>
     </div>
   );
