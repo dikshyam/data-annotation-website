@@ -321,7 +321,7 @@ function QuestionReview({ domain, userEmail, onSubmitResponse }) {
           </div>
           
           <div className="polymer-section">
-            <h3>Polymer Details:</h3>
+            <h3>Polymer Details | Ground Truth:</h3>
             <div className="polymer-details-structured">
               {parsePolymerDetails(currentQuestion.polymer_details)}
             </div>
