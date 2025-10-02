@@ -1,0 +1,2404 @@
+{
+  "questions": [
+    {
+      "id": "rp_56",
+      "text": "If <smiles_start>CCc1cc(O)ccc1O<smiles_end> is one starting material and <smiles_start>*Oc1ccc(OC(=O)Nc2cc(NC(*)=O)ccc2C)cc1CC<smiles_end> is the final polymer from addition, identify the other monomer.",
+      "qid": 56,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>Cc1ccc(N=C=O)cc1N=C=O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>Cc1ccc(N=C=O)cc1N=C=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>Cc1ccc(N=C=O)cc1N=C=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>O=C=Nc1ccccc1C=O<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1543",
+      "text": "Which monomer(s) produced <smiles_start>*Oc1cc(Cl)ccc1Cc1ccc(Cl)cc1OC(=O)c1cc(OCC)cc(C(*)=O)c1<smiles_end> through condensation?",
+      "qid": 1543,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>CCOc1cc(C(=O)O)cc(C(=O)O)c1<smiles_end> and Monomer 2: <smiles_start>Oc1cc(Cl)ccc1Cc1ccc(Cl)cc1O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>O=C(Cl)c1cc(OCC)cc(C(=O)Cl)c1<smiles_end> and Monomer 2: <smiles_start>Oc1ccc(Cl)cc1Cc1ccc(Cl)cc1O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>CCOc1cc(C(=O)O)cc(C(=O)O)c1<smiles_end> and Monomer 2: <smiles_start>Oc1ccc(Cl)cc1COCc1ccc(Cl)cc1O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Vanillyl alcohol and terephthaloyl chloride.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1261",
+      "text": "What polymer is formed from <smiles_start>O=C(Cl)CC(Cl)CC(=O)Cl<smiles_end> and <smiles_start>OCc1ccc(O)cc1<smiles_end> via condensation?",
+      "qid": 1261,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*Oc1ccc(COC(=O)CC(Cl)CC(*)=O)cc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*Oc1ccc(COC(=O)CC(Cl)CC(*)=O)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*Oc1cc(COC(=O)CC(Cl)CC(*)=O)ccc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(bisphenol A carbonate).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_151",
+      "text": "What second monomer combines with <smiles_start>C#CC(C)NC(=O)OC(C)(C)C<smiles_end> to produce <smiles_start>*C=C(*)C(C)NC(=O)OC(C)(C)C<smiles_end> via addition?",
+      "qid": 151,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>C#CC(C)NC(=O)OC(C)(C)C<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>C#CC(C)NC(=O)OC(C)(C)C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>C#CC(C)NC(=O)OC(C)(C)C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>C=C<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1268",
+      "text": "What monomer(s) were used to synthesize <smiles_start>*Nc1cc(OC)c(NC(=O)c2cccc(C(*)=O)c2OC)cc1C(=O)OCC<smiles_end> via condensation?",
+      "qid": 1268,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>COc1c(C(=O)Cl)cccc1C(=O)Cl<smiles_end> and Monomer 2: <smiles_start>CCOC(=O)c1cc(N)c(OC)cc1N<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>COc1cccc(C(=O)Oc2ccccc2C(=O)O)c1<smiles_end> and Monomer 2: <smiles_start>CCOC(=O)c1cc(N)cc(OC)c1N<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>CCOC(=O)c1cc(N)c(OC)cc1N<smiles_end> and Monomer 2: <smiles_start>COc1cccc(C(=O)Cl)c1C(=O)Cl<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['p-Anisidine and ethyl 4-(4-methoxyphenylamino)-4-oxobutanoate.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_710",
+      "text": "What monomer(s) were used to synthesize <smiles_start>*NCCCCCCCCC(*)=O<smiles_end> via ringopening?",
+      "qid": 710,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>O=C1CCCCCCCCN1<smiles_end> and Monomer 2: <smiles_start>O=C1CCCCCCCCN1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Monomer 1: <smiles_start>O=C1CCCCCCCN1<smiles_end> and Monomer 2: <smiles_start>O=C1CCCCCCCN1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>O=C1CCCCCCCCCN1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Caprolactam']"
+        }
+      ]
+    },
+    {
+      "id": "rp_804",
+      "text": "What is the expected polymer from addition of <smiles_start>FC(F)(F)Oc1ccccc1C#CCOC1CCCCO1<smiles_end>  and <smiles_start>FC(F)(F)Oc1ccccc1C#CCOC1CCCCO1<smiles_end>?",
+      "qid": 804,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*C(COC1CCCCO1)=C(*)c1ccccc1OC(F)(F)F<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<smiles_start>*C(COC1CCCCO1)=C(*)c1ccccc1OC(F)(F)F<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*C(COc1ccccc1OC(F)(F)F)=C(*)COC1CCCCO1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(FC(F)(F)Oc1ccccc1C#CCOC1CCCCO1).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1447",
+      "text": "Predict the polymer product of addition using <smiles_start>COc1cc(Br)cc(CC(=O)O)c1Br<smiles_end>  and <smiles_start>COc1cc(Br)cc(CC(=O)O)c1Br<smiles_end>",
+      "qid": 1447,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*c1cc(CC(=O)O)c(*)c(OC)c1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*c1cc(CC(=O)O)c(*)c(OC)c1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*c1cc(CC(=O)O)c(*)cc1OC<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['[(-COc1cc(Br)cc(C(=O)O)c1CH2-)_n]']"
+        }
+      ]
+    },
+    {
+      "id": "rp_193",
+      "text": "What second monomer combines with <smiles_start>O=C(Cl)c1cccc(Br)c1C(=O)Cl<smiles_end> to produce <smiles_start>*Nc1cc(Br)cc(NC(=O)c2c(Br)cccc2C(*)=O)c1C(=O)OC<smiles_end> via condensation?",
+      "qid": 193,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>COC(=O)c1c(N)cc(Br)cc1N<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>COC(=O)c1c(N)cc(Br)cc1N<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>COC(=O)c1c(N)cc(Br)cc1N<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>CO</smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_420",
+      "text": "What polymer is formed from <smiles_start>O=C1CCCCCCCC(=O)OCCOCCOCCO1<smiles_end> via ringopening?",
+      "qid": 420,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <iupac_start>poly[(ethylenedioxy)diethylene azelaate]<iupac_end> SMILES: <smiles_start>*OCCOCCOCCOC(=O)CCCCCCCC(*)=O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <iupac_start>poly(1-{4-[4-(oxiran-2-ylmethoxy)butyl]phenyl}ethylene)<iupac_end> SMILES: <smiles_start>*CC(*)C(=O)c1ccc(cc1)CCCCOC(=O)CO<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <iupac_start>poly[(octane-1,8-diol)-alt-(octanedioic acid)]<iupac_end> SMILES: <smiles_start>*OCCCCCCCCOC(=O)CCCCCCC(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(ethylene glycol adipate).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1537",
+      "text": "What second monomer combines with <smiles_start>CC(=O)C=Cc1ncccc1F<smiles_end> to produce <smiles_start>*C(C(C)=O)C(*)c1ncccc1F<smiles_end> via addition?",
+      "qid": 1537,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>CC(=O)C=Cc1ncccc1F<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>CC(=O)C=Cc1ncccc1F<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>CC(=O)C=Cc1ncccc1F<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['C=C']"
+        }
+      ]
+    },
+    {
+      "id": "rp_890",
+      "text": "What is the expected polymer from condensation of <smiles_start>Cc1ccc(C(CC(=O)O)C(=O)O)o1<smiles_end>  and <smiles_start>O=C(Nc1cccc(Cl)c1)c1cc(O)cc(O)c1<smiles_end>?",
+      "qid": 890,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*Oc1cc(OC(=O)C(CC(*)=O)c2ccc(C)o2)cc(C(=O)Nc2cccc(Cl)c2)c1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*Oc1cc(OC(=O)C(CC(*)=O)c2ccc(C)oc2)cc(C(=O)Nc2cccc(Cl)c2)c1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*Oc1cc(OC(=O)C(C)Cc2oc(C)c(C)c2C(*)=O)cc(=O)Nc2cccc(Cl)c2<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polyarylate.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_972",
+      "text": "What is the expected polymer from addition of <smiles_start>OCCc1ccc(Br)cc1O<smiles_end>  and <smiles_start>O=C=Nc1ccc(C(c2ccc(N=C=O)cc2)(C(F)(F)F)C(F)(F)F)cc1<smiles_end>?",
+      "qid": 972,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*Oc1cc(Br)ccc1CCOC(=O)Nc1ccc(C(c2ccc(NC(*)=O)cc2)(C(F)(F)F)C(F)(F)F)cc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*Oc1cc(Br)ccc1CCOC(=O)Nc1ccc(C(c2ccc(NC(*)=O)cc2)(C(F)(F)F)C(F)(F)F)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*Oc1cc(Br)ccc1COC(=O)Nc1ccc(C(c2ccc(NC(*)=O)cc2)(C(F)(F)F)C(F)(F)F)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['A poly(urethane) polymer formed by reaction of bisphenol A with a diisocyanate containing trifluoromethyl groups.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_200",
+      "text": "What is the expected polymer from addition of <smiles_start>NCCCCN<smiles_end>  and <smiles_start>O=C=NCCCCN=C=O<smiles_end>?",
+      "qid": 200,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*NCCCCNC(=O)NCCCCNC(*)=O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*NCCCCNC(=O)NCCCCNC(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <iupac_start>poly[(butane-1,4-diamine)-alt-(hexamethylene diisocyanate)]<iupac_end> SMILES: <smiles_start>*NCCCCNC(=O)NCCCCCCNC(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polyurea.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_386",
+      "text": "Predict the polymer product of addition using <smiles_start>[SiH3]C=C<smiles_end>",
+      "qid": 386,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <iupac_start>polyvinylsilane<iupac_end> SMILES: <smiles_start>[SiH3]C(*)C*<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <iupac_start>poly(methylpropylsilane)<iupac_end> SMILES: <smiles_start>*CC([SiH3])*<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <iupac_start>poly(silylpropene)<iupac_end> SMILES: <smiles_start>[SiH3]C(*)C*<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['[SiH3]C-C[SiH3]']"
+        }
+      ]
+    },
+    {
+      "id": "rp_854",
+      "text": "What polymer is formed from <smiles_start>O=C(O)C(c1ccccc1)S(=O)(=O)O<smiles_end> and <smiles_start>O=C(O)C(c1ccccc1)S(=O)(=O)O<smiles_end> via condensation?",
+      "qid": 854,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*OS(=O)(=O)C(C(=O)OS(=O)(=O)C(C(*)=O)c1ccccc1)c1ccccc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<smiles_start>*OS(=O)(=O)C(c1ccccc1)C(=O)OS(=O)(=O)C(c1ccccc1)C(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*OS(=O)(=O)C(C(=O)OS(=O)(=O)C(C(*)=O)c1ccccc1)c1ccccc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(phenylsulfonylacetate)']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1572",
+      "text": "What monomer(s) were used to synthesize <iupac_start>poly(ethylenethiohexamethylene sulfide)<iupac_end> SMILES: <smiles_start>*CCCCCCSCCS*<smiles_end> via ringopening?",
+      "qid": 1572,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer: <smiles_start>C1CCCSCCSCC1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer: <smiles_start>C1CCSCCS1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>O=S1CCCCCCS(=O)(=O)O1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Thiacyclohexane and 1,6-hexanedithiol.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_226",
+      "text": "Complete the reaction: <smiles_start>CCOC(=O)N1CC2C=CC1C2<smiles_end> + ? → <smiles_start>*C=CC1CC(*)N(C(=O)OCC)C1<smiles_end> (ringopening)",
+      "qid": 226,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>CCOC(=O)N1CC2C=CC1C2<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>CCOC(=O)N1CC2C=CC1C2<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>CCOC(=O)N1CC2C=CC1C2<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>C=C<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_317",
+      "text": "What second monomer combines with <smiles_start>C=CC(=O)NCc1ccc(Br)cc1<smiles_end> to produce <smiles_start>*CC(*)C(=O)NCc1ccc(Br)cc1<smiles_end> via addition?",
+      "qid": 317,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>C=CC(=O)NCc1ccc(Br)cc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>C=CC(=O)NCc1ccc(Br)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>C=CC(=O)NCc1ccc(Br)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>C=C*<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_229",
+      "text": "What is the expected polymer from ringopening of <smiles_start>FCCC1CO1<smiles_end>  and <smiles_start>FCCC1CO1<smiles_end>?",
+      "qid": 229,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*CC(CCF)O*<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*CC(F)CC(*)F<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*CC(COC*)CCl<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(tetrahydrofuran) (also known as poly(THF) or polytetramethylene ether glycol, PTMEG).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_290",
+      "text": "Identify the starting monomer(s) for this addition polymer: <smiles_start>*CC(*)(CCl)c1c(O)ccc2ccccc12<smiles_end>",
+      "qid": 290,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>C=C(CCl)c1c(O)ccc2ccccc12<smiles_end> and Monomer 2: <smiles_start>C=C(CCl)c1c(O)ccc2ccccc12<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>C=C(CCl)c1c(O)ccc2ccccc12<smiles_end> and Monomer 2: <smiles_start>C=C(CCl)c1c(O)ccc2ccccc12<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>O=c1ccc2ccccc2c1C=CCCl<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The starting monomer for the addition polymer is 2-chloro-2-phenylpropene.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_552",
+      "text": "Identify the starting monomer(s) for this addition polymer: <smiles_start>*Oc1cc(N)c(OC(=O)NCc2ccccc2CNC(*)=O)cc1C(=O)OC<smiles_end>",
+      "qid": 552,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>COC(=O)c1cc(O)c(N)cc1O<smiles_end> and Monomer 2: <smiles_start>O=C=NCc1ccccc1CN=C=O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>COC(=O)c1cc(O)c(N)cc1O<smiles_end> and Monomer 2: <smiles_start>O=C=NCc1ccccc1CN=C=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['The polymer structure shows a repeating unit containing an aromatic ring with hydroxyl, amino, and methyl ester substituents, connected to another aromatic ring through urethane linkages (-NH-CO-O-). This type of polymer is typically formed through the reaction between a dihydroxy compound and a diisocyanate. Breaking down the polymer at the urethane linkages reveals two distinct monomers:  1. A dihydroxy compound: <smiles_start>COC(=O)c1cc(O)c(N)cc1O<smiles_end> - Contains a methyl ester group - Has two hydroxyl groups in ortho positions - Contains an amino group  2. A diisocyanate: <smiles_start>O=C=NCc1ccccc1CN=C=O<smiles_end> - Contains two isocyanate groups (-N=C=O) - Has a benzene ring with methylene spacers  The polymerization occurs through addition reactions where the hydroxyl groups of the first monomer react with the isocyanate groups of the second monomer to form urethane linkages, without losing any small molecules. This step-growth polymerization produces the given polymer structure.<think_end>\\n\\n    ### Thought:\\n    <think_start>Let me analyze the polymer']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The starting monomer is methacrylic acid.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_881",
+      "text": "Which monomer(s) produced <smiles_start>*C=CC1CC(C(=O)ON2C(=O)c3ccccc3C2=O)C(*)N(C(=O)OC(C)(C)C)C1<smiles_end> through ringopening?",
+      "qid": 881,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>CC(C)(C)OC(=O)N1CC2C=CC1C(C(=O)ON1C(=O)c3ccccc3C1=O)C2<smiles_end> and Monomer 2: <smiles_start>CC(C)(C)OC(=O)N1CC2C=CC1C(C(=O)ON1C(=O)c3ccccc3C1=O)C2<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>CC(C)(C)OC(=O)N1C2C=CC(C2)C1C(=O)ON1C(=O)c2ccccc2C1=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>CC(C)(C)OC(=O)N1CC2C=CC(CC2)N(C(=O)OC(C)(C)C)C1C(=O)ON1C(=O)c2ccccc2C1=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Norbornene and N-phenylmaleimide.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_905",
+      "text": "What polymer is formed from <smiles_start>O=C(O)C(CC1CC1)C(=O)O<smiles_end> and <smiles_start>CC(NC(=O)OCc1ccccc1)C(O)C(O)C(C)NC(=O)OCc1ccccc1<smiles_end> via condensation?",
+      "qid": 905,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*OC(C(C)NC(=O)OCc1ccccc1)C(OC(=O)C(CC1CC1)C(*)=O)C(C)NC(=O)OCc1ccccc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<smiles_start>*OC(C(C)NC(=O)OCc1ccccc1)C(C)NC(=O)OCc1ccccc1)C(OC(=O)C(CC2CC2)C(*)=O)C(=O)OCc1ccccc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <iupac_start>poly[(2-methylpropane-1,3-dicarboxylic acid)-alt-(4-(2-(benzyloxycarbonylamino)propyl)amino-5-hydroxy-1,3-dihydroxybutane)]<iupac_end> SMILES: <smiles_start>CC(NC(=O)OCc1ccccc1)C(O*)C(OC(=O)C(CC2CC2)C(*)=O)C(C)NC(=O)OCc1ccccc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polyester.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1758",
+      "text": "What polymer is formed from <smiles_start>CCC1(CCS)COC1<smiles_end> and <smiles_start>CCC1(CCS)COC1<smiles_end> via ringopening?",
+      "qid": 1758,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*CC(CC)(CCS)CO*<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<smiles_start>*CC(CC)(CS)CO*<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*CC(CC)(CCS)CO*<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(thiolane).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1744",
+      "text": "What second monomer combines with <smiles_start>O=C(O)C1OC(C(=O)O)C2C1C(F)(F)C2(F)F<smiles_end> to produce <smiles_start>*Oc1nc(OC(=O)C2OC(C(*)=O)C3C2C(F)(F)C3(F)F)cc(C)c1C<smiles_end> via condensation?",
+      "qid": 1744,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>Cc1cc(O)nc(O)c1C<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>Cc1c(N=C=O)cc(O)cc1N=C=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>Cc1cc(C)c(O)n1O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>Oc1nc(C)cc(C)c1C<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_486",
+      "text": "What polymer is formed from <smiles_start>CC(=O)C=CC(=O)Cl<smiles_end> and <smiles_start>CC(=O)C=CC(=O)Cl<smiles_end> via addition?",
+      "qid": 486,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*C(C(C)=O)C(*)C(=O)Cl<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*C(C(=O)Cl)C(*)C(=O)C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*C(C(=O)Cl)C(*)C(C)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(1,4-butanediol diacrylate)']"
+        }
+      ]
+    },
+    {
+      "id": "rp_916",
+      "text": "What is the expected polymer from ringopening of <smiles_start>COC1=C2C=CC=CC2N=C1C(=O)O<smiles_end>  and <smiles_start>COC1=C2C=CC=CC2N=C1C(=O)O<smiles_end>?",
+      "qid": 916,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*C=CC=CC1=C(OC)C(C(=O)O)=NC1*<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*OC(=C1C=CC=CC1C(=O)OC)C(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*C=CC1=NC(C(*)=O)=C(C(=O)O)C=C1OC<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(benzoxazine).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1951",
+      "text": "Predict the polymer product of addition using <smiles_start>C=CC1CCC=CC1<smiles_end>",
+      "qid": 1951,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <iupac_start>poly(4-vinylcyclohex-1-ene)<iupac_end> SMILES: <smiles_start>*CC(*)C1CCC=CC1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <iupac_start>poly(1,3-cyclohexadiene)<iupac_end> SMILES: <smiles_start>*C=CC1CCC(*)C1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <iupac_start>poly(1,4-cyclohexadiene)<iupac_end> SMILES: <smiles_start>*C=CC1CCC(*)C1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The polymer product of addition using the given SMILES (C=CC1CCC=CC1) would be poly(1,4-cyclohexylenepropylene).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_127",
+      "text": "Which monomer(s) produced <smiles_start>*Oc1ccc(SCCCOC(=O)Oc2ccc(SCCCOC(*)=O)cc2)cc1<smiles_end> through condensation?",
+      "qid": 127,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>O=C(O)OCCCSc1ccc(O)cc1<smiles_end> and Monomer 2: <smiles_start>O=C(O)OCCCSc1ccc(O)cc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>O=C(Cl)OCCSCc1ccc(O)cc1<smiles_end> and Monomer 2: <smiles_start>O=C(Cl)OCCSCc1ccc(O)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "[\"<think_start> Monomer 1: <smiles_start>O=C(Cl)OCCSCCc1ccc(O)cc1<smiles_end> and Monomer 2: <smiles_start>O=C(Cl)OCCSCCc1ccc(O)cc1<smiles_end> <answer_end><think_end>\\n\\n    ### Thought:\\n    <think_start>Let's analyze how these monomers would produce the given polymer structure through condensation:  1. First, let's examine the target polymer structure: - Contains repeating units with ether linkages (-O-) - Has thioether groups (-S-CH2-CH2-) - Contains ester linkages (-COO-) - Has para-substituted phenyl rings  2. Looking at the proposed monomers: - Both monomers are identical - Each contains:   * A chloroformate group (-COCl)   * An ethylene spacer (-CH2CH2-)   * A thioether linkage (-S-CH2-CH2-)   * A para-hydroxyphenyl group  3. Condensation reaction mechanism: - The chloroformate groups (-COCl) react with hydroxyl groups (-OH) - This forms ester linkages (-COO-) with elimination of HCl - The reaction occurs between the terminal\"]"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['4-(3-Hydroxypropylsulfonyl)phenol and 4-(3-Hydroxypropylsulfonyl)phenyl carbonate.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_353",
+      "text": "Complete the reaction: <smiles_start>O=C(Cl)c1nn[nH]c1C(=O)Cl<smiles_end> + ? → <smiles_start>*OC(COc1ccc(Br)cc1F)C(CCl)OC(=O)c1[nH]nnc1C(*)=O<smiles_end> (condensation)",
+      "qid": 353,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>OC(CCl)C(O)COc1ccc(Br)cc1F<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>OC(CCl)C(O)COc1ccc(Br)cc1F<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>CC(O)COc1ccc(Br)cc1F<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>O=C(CO*)c1ccc(Br)cc1F<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_812",
+      "text": "If <smiles_start>COc1ccc(C(=O)Cl)cc1C(=O)Cl<smiles_end> is one starting material and <smiles_start>*OC1C(C)=C(c2ccccc2)C(OC(=O)c2cc(C(*)=O)ccc2OC)(c2ccccc2)C1C<smiles_end> is the final polymer from condensation, identify the other monomer.",
+      "qid": 812,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>CC1=C(c2ccccc2)C(O)(c2ccccc2)C(C)C1O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>OC1C(C)=C(c2ccccc2)C(O)(c2ccccc2)C1C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>OC1C(C)=C(c2ccccc2)C(O)(c2ccccc2)C1C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>O=C(O)c1cc(OC(=O)c2ccc(OC(=O)*)cc2)ccc1OC(=O)*<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_692",
+      "text": "Which monomer(s) produced <smiles_start>*Nc1cc(C(=O)OC)ncc1NC(=O)NC1CCC(NC(*)=O)CC1<smiles_end> through addition?",
+      "qid": 692,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>COC(=O)c1cc(N)c(N)cn1<smiles_end> and Monomer 2: <smiles_start>O=C=NC1CCC(N=C=O)CC1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>COC(=O)c1cc(N)c(N)cc1<smiles_end> and Monomer 2: <smiles_start>O=C=NC1CCC(N=C=O)CC1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>COC(=O)c1cc(N)ncc1N<smiles_end> and Monomer 2: <smiles_start>O=C=NC1CCC(N=C=O)CC1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The polymer with SMILES `*Nc1cc(C(=O)OC)ncc1NC(=O)NC1CCC(NC(*)=O)CC1` is likely produced by addition polymerization of the monomer with SMILES `Nc1cc(C(=O)OC)ncc1NC(=O)N=C=O`.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1223",
+      "text": "What is the expected polymer from ringopening of <smiles_start>C1CN=C(O1)c1ccsc1<smiles_end> ?",
+      "qid": 1223,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <iupac_start>poly[2-(3-thienyl)-4,5-dihydro-1,3-oxazole]<iupac_end> SMILES: <smiles_start>*CCN(*)C(=O)c1ccsc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <iupac_start>poly(2-aminocyclopropene-1,2-dicarboxylic acid)<iupac_end> SMILES: <smiles_start>*NC1C(*)C(=O)C1C(=O)O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*CC(CN*)c1ccsc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(2-mercaptothiazole).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1561",
+      "text": "What is the expected polymer from addition of <smiles_start>COC(=O)C(=C)CF<smiles_end> ?",
+      "qid": 1561,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <iupac_start>poly[methyl 2-(fluoromethyl)acrylate]<iupac_end> SMILES: <smiles_start>COC(=O)C(*)(CF)C*<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <iupac_start>poly(methyl methacrylate fluoride)<iupac_end> SMILES: <smiles_start>COC(=O)C(*)(C*)CF<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <iupac_start>poly(2,3-difluoro-2-methylacrylate)<iupac_end> SMILES: <smiles_start>FC(C(=O)OC)C(*)*<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(vinylidene fluoride-co-methyl acrylate)']"
+        }
+      ]
+    },
+    {
+      "id": "rp_59",
+      "text": "What second monomer combines with <smiles_start>O=C1CCC(C(=O)Cl)N1<smiles_end> to produce <smiles_start>*NC(CCC(*)=O)C(=O)Cl<smiles_end> via ringopening?",
+      "qid": 59,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>O=C1CCC(C(=O)Cl)N1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>O=C1CCC(C(=O)Cl)N1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>O=C1CCC(C(=O)Cl)N1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>C=C<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_301",
+      "text": "Identify the starting monomer(s) for this addition polymer: <smiles_start>*Nc1c(C(=O)CCl)ccc(C#N)c1NC(=O)Nc1ccc(Cc2ccc(NC(*)=O)cc2)cc1<smiles_end>",
+      "qid": 301,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>N#Cc1ccc(C(=O)CCl)c(N)c1N<smiles_end> and Monomer 2: <smiles_start>O=C=Nc1ccc(Cc2ccc(N=C=O)cc2)cc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>N#Cc1ccc(C(=O)CCl)c(N)c1N<smiles_end> and Monomer 2: <smiles_start>O=C=Nc1ccc(Cc2ccc(N=C=O)cc2)cc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['The polymer structure shows a repeating unit with two distinct segments connected by urea linkages (-NH-CO-NH-). To form this polymer through addition, we need to identify the original monomers that would react to create these linkages. Looking at the polymer structure, we can see it contains:  1. A segment with a cyano group (C#N), chloroacetyl group (C(=O)CCl), and two amino groups (-NH2)  2. A segment with two benzene rings connected by a methylene bridge (-CH2-) and terminal isocyanate groups (-N=C=O)  For addition polymerization to occur, the monomers must have complementary functional groups that can react to form the urea linkages. Therefore: - Monomer 1 must be a diamine containing the cyano and chloroacetyl groups - Monomer 2 must be a diisocyanate with the methylene-linked aromatic rings  The correct monomers are: 1. A diamine: <smiles_start>N#Cc1ccc(C(=O)CCl)c(N)c1N<smiles_end> 2. A diisocyanate: <smiles_start>O=C=Nc1ccc(Cc']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The starting monomers for this addition polymer are acrylonitrile (CH2=CH-C≡N) and methyl acrylate (CH2=CH-COOCH3).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_213",
+      "text": "What is the expected polymer from ringopening of <smiles_start>O=C(O)C1Oc2ccccc2NC1=O<smiles_end>  and <smiles_start>O=C(O)C1Oc2ccccc2NC1=O<smiles_end>?",
+      "qid": 213,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*Nc1ccccc1OC(C(*)=O)C(=O)O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> <smiles_start>*Oc1c(C(=O)O)ccccc1NC(=O)OC(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*Oc1ccccc1NC(=O)C(=O)Oc1ccccc1NC(=O)C(*)=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(trimethylene carbonate).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1170",
+      "text": "If <smiles_start>COC(=O)C(C)C1(O)COC1<smiles_end> is one starting material and <smiles_start>*CC(O)(CO*)C(C)C(=O)OC<smiles_end> is the final polymer from ringopening, identify the other monomer.",
+      "qid": 1170,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>COC(=O)C(C)C1(O)COC1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>COC(=O)C(C)C1(O)COC1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>COC(=O)C(C)C1(O)COC1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>*CC(O)C(C)C(=O)OC<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1414",
+      "text": "Complete the reaction: <smiles_start>O=C(Cl)c1cnc(C(=O)Cl)cn1<smiles_end> + ? → <smiles_start>*Oc1cc(OC(=O)c2cnc(C(*)=O)cn2)nc2ccc(OC)cc12<smiles_end> (condensation)",
+      "qid": 1414,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>COc1ccc2nc(O)cc(O)c2c1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>COc1ccc2nc(O)cc(O)c12<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>COc1ccc(c2nc(O)cc(O)n2)c1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>*Oc1cc(O*)nc2ccc(OC)cc12<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1795",
+      "text": "Identify the starting monomer(s) for this ringopening polymer: <smiles_start>*CC(COCCCCCC)O*<smiles_end>",
+      "qid": 1795,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>CCCCCCOCC1CO1<smiles_end> and Monomer 2: <smiles_start>CCCCCCOCC1CO1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer: <smiles_start>CCCCCCCC1COC1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>OCC(COCCCCCC)CO<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The starting monomer for the given ring-opening polymer is ε-caprolactone.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1362",
+      "text": "Which monomer(s) produced <smiles_start>*Nc1cc(Cl)ccc1CC(*)=O<smiles_end> through ringopening?",
+      "qid": 1362,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>O=C1Cc2ccc(Cl)cc2N1<smiles_end> and Monomer 2: <smiles_start>O=C1Cc2ccc(Cl)cc2N1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>O=C1CNc2ccc(Cl)cc2N1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>O=C1CCCc2ccc(Cl)cc2N1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['4-Chlorophenylacetic anhydride.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_935",
+      "text": "If <smiles_start>O=C1C=C(OCc2ccccc2)CCO1<smiles_end> is one starting material and <smiles_start>*OCCC(=CC(*)=O)OCc1ccccc1<smiles_end> is the final polymer from ringopening, identify the other monomer.",
+      "qid": 935,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>O=C1C=C(OCc2ccccc2)CCO1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>O=C1C=C(OCc2ccccc2)CCO1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>O=C1C=C(OCc2ccccc2)CCO1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['C=C.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1968",
+      "text": "What monomer(s) were used to synthesize <smiles_start>*OC(C(OCc1ccc(Br)cc1)=C(O)C(*)=O)C1COC(C)(C)O1<smiles_end> via ringopening?",
+      "qid": 1968,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>CC1(C)OCC(C2OC(=O)C(O)=C2OCc2ccc(Br)cc2)O1<smiles_end> and Monomer 2: <smiles_start>CC1(C)OCC(C2OC(=O)C(O)=C2OCc2ccc(Br)cc2)O1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>CC1(C)OCC(C2(O)C(=O)OC2=C(O)C(O)C2COC(C)(C)O2)O1<smiles_end> and Monomer 2: <smiles_start>CC1(C)OCC(C2(O)C(=O)OC2=C(O)C(O)C2COC(C)(C)O2)O1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Monomer: <smiles_start>CC1(C)OCC(C(O)C(O)=C(O)OCc2ccc(Br)cc2)O1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Glycidol and 2-bromo-4-hydroxybenzoic acid.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1460",
+      "text": "Identify the starting monomer(s) for this ringopening polymer: <iupac_start>poly(2,3-dimethylbutylene terephthalate)<iupac_end> SMILES: <smiles_start>CC(CO*)C(C)COC(=O)c1ccc(cc1)C(*)=O<smiles_end>",
+      "qid": 1460,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer: <smiles_start>CC1COC(=O)c2ccc(cc2)C(=O)OCC1C<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer: <smiles_start>CC1(C)COC(=O)c2ccc(cc2)C(=O)OC1(C)C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "[\"The starting monomer is: <smiles_start>CC(CO)C(C)COC(=O)c1ccc(cc1)C(=O)O<smiles_end> \\n\\n\\n\\n    ### Thought:\\n    <think_start>Let's analyze the polymer structure to identify its starting monomer through reverse engineering:  1. First, looking at the polymer structure given in the SMILES notation:    - CC(CO*)C(C)COC(=O)c1ccc(cc1)C(*)=O    - This shows a repeating unit with ester linkages (-COO-)    - Contains a dimethylbutylene segment (CC(CO)C(C))    - Has a terephthalate unit (c1ccc(cc1)C(=O))  2. For ring-opening polymerization of polyesters:    - The monomer must be a cyclic ester (lactone)    - The polymerization occurs through breaking of the cyclic ester bond    - Each repeating unit in the polymer comes from one monomer molecule  3. To form this polymer structure:    - The monomer must contain all the structural elements seen in the repeating unit    - The ester linkage in the polymer comes from opening of the lactone ring    - The\"]"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['2,3-dimethyl-1,3-butanediol and terephthalic acid']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1397",
+      "text": "Given that one monomer is <smiles_start>N=C(N)c1c(N)cccc1F<smiles_end> and the polymer is <smiles_start>*NC(=N)c1c(F)cccc1NC(=O)NCCCCCCCCCCNC(*)=O<smiles_end>, what is the second monomer used in this addition?",
+      "qid": 1397,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>O=C=NCCCCCCCCCCN=C=O<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>O=C=NCCCCCCCCCCN=C=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>O=C=NCCCCCCCCCCN=C=O<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>O=C(NCCCCCCCCCCN)C=O<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_79",
+      "text": "What second monomer combines with <smiles_start>O=C1NN(c2ccccc2)C(=O)C1Sc1ccccc1<smiles_end> to produce <smiles_start>*NN(C(=O)C(Sc1ccccc1)C(*)=O)c1ccccc1<smiles_end> via ringopening?",
+      "qid": 79,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>O=C1NN(c2ccccc2)C(=O)C1Sc1ccccc1<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>O=C1NN(c2ccccc2)C(=O)C1Sc1ccccc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>O=C1NN(c2ccccc2)C(=O)C1Sc1ccccc1<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>O=C=O<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_880",
+      "text": "Identify the starting monomer(s) for this condensation polymer: <smiles_start>*Oc1ccc2c(Cl)c(OC(=O)c3cc(C(*)=O)n[nH]3)ccc2c1Cl<smiles_end>",
+      "qid": 880,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Monomer 1: <smiles_start>O=C(Cl)c1cc(C(=O)Cl)[nH]n1<smiles_end> and Monomer 2: <smiles_start>Oc1ccc2c(Cl)c(O)ccc2c1Cl<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Monomer 1: <smiles_start>O=C(Cl)c1cc(C(=O)Cl)[nH]n1<smiles_end> and Monomer 2: <smiles_start>Oc1ccc2c(Cl)c(O)ccc2c1Cl<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "[\"Let's analyze this step by step to identify the starting monomers for this condensation polymer:  1. First, let's identify the key structural features in the polymer repeat unit:    - A pyrazole ring with two carbonyl groups (C=O)    - Two chlorinated benzene rings    - Ether linkages (O-C) connecting these units  2. For a condensation polymer, we need to identify where the condensation reaction occurred:    - The carbonyl groups and ether linkages suggest ester formation    - This indicates a reaction between carboxylic acid/acid chloride groups and hydroxyl groups  3. Breaking down at the condensation points:    - One monomer must contain the pyrazole ring with two acid chloride groups (for reactivity)    - The other monomer must have two hydroxyl groups on the chlorinated benzene rings  4. Therefore:    - Monomer 1 is a diacyl chloride derivative of pyrazole: <smiles_start>O=C(Cl)c1cc(C(=O)Cl)[nH]n1<smiles_end>    - Monomer 2 is a bisphenol derivative with chlorine substituents: <smiles_start>Oc1ccc\"]"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['2,5-Dichlorohydroquinone and 3-Aminobenzoic acid.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_629",
+      "text": "What polymer is formed from <smiles_start>COc1cc(C(C)O)c(Br)cc1O<smiles_end> and <smiles_start>Cc1c(N=C=O)cccc1N=C=O<smiles_end> via addition?",
+      "qid": 629,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> <smiles_start>*Oc1cc(Br)c(C(C)OC(=O)Nc2cccc(NC(*)=O)c2C)cc1OC<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<smiles_start>*OC(c1cc(OC)ccc1OC(=O)Nc1cccc(NC(*)=O)c1)C(C)Br<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> <smiles_start>*Oc1cc(OC)c(Br)cc1C(C)OC(=O)Nc1cccc(NC(*)=O)c1C<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polyurethane.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_840",
+      "text": "Given that one monomer is <smiles_start>C#CC(C)CC<smiles_end> and the polymer is <smiles_start>*C=C(*)C(C)CC<smiles_end>, what is the second monomer used in this addition?",
+      "qid": 840,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Second monomer: <smiles_start>C#CC(C)CC<smiles_end> <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Second monomer: <smiles_start>C#CC(C)CC<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Second monomer: <smiles_start>C#CC(C)CC<smiles_end> <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['<smiles_start>C=C<smiles_end>']"
+        }
+      ]
+    },
+    {
+      "id": "rp_870",
+      "text": "How would replacing the ether linkage (-O-) with a sulfone group (-SO2-) in <iupac_start>poly{naphthalene-alt-[4,4'-oxybis(benzenesulfonyl chloride)]}<iupac_end> affect both chemical resistance and flexibility, given its current 5 rotatable bonds and 22 aromatic atoms?",
+      "qid": 870,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> Replacing the ether with a sulfone group would enhance chemical resistance due to increased stability and polarity, but would decrease chain flexibility despite maintaining 5 rotatable bonds, due to increased steric bulk and restricted molecular motion from the additional SO2 group. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Adding a sulfone group would increase chemical resistance due to the stronger S-O bonds and electron-withdrawing nature of SO2, making the polymer more resistant to chemical attack. However, this modification would reduce flexibility despite maintaining the same number of rotatable bonds, as the larger, more rigid sulfone group would restrict chain motion and increase steric hindrance. The current ether linkage provides better processability through its smaller size and greater rotational freedom, while the sulfone modification would create a more chemically resistant but less flexible polymer. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "[\"<answer_start> Replacing the ether with a sulfone group would enhance chemical resistance due to the stronger S=O bonds and increased polarity, but would reduce chain flexibility despite maintaining the same number of rotatable bonds. The sulfone group's bulkiness and rigidity would restrict chain motion, making processing more difficult while providing better chemical stability against solvents and acids. <answer_end>\"]"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Replacing the ether linkage (-O-) with a sulfone group (-SO2-) would increase chemical resistance due to the higher polarity and electron-withdrawing nature of the sulfone group, but it would decrease flexibility due to the increased rigidity from the bulkier and more polar sulfone group.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1459",
+      "text": "What is the ratio of sp3 carbons to total carbons in one repeat unit of <iupac_start>poly{[4-acetoxy-6-(2-carboxybenzoyloxymethyl)-3-hydroxytetrahydro-2H-pyran-2,5-diyl]oxy}<iupac_end>?",
+      "qid": 1459,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 2:5 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The ratio of sp3 carbons to total carbons is 0.4. This is calculated from 4 sp3 carbons (3 in the pyran ring, 1 in the methylene spacer) divided by 10 total carbons (4 sp3 + 6 sp2 from aromatic ring and carbonyls). This moderate sp3 fraction indicates a balance between rigid and flexible segments in the polymer structure. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> To calculate this ratio, first identify the sp3 carbons: 4 from the tetrahydropyran ring, 1 from the acetoxy group, and 1 from the hydroxymethyl group, totaling 6 sp3 carbons. Total carbons include these 6 sp3 carbons plus 8 sp2 carbons (6 from benzene ring, 2 from carbonyl groups), giving 14 total carbons. Therefore, the ratio is 6/14 = 0.43. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The ratio of sp3 carbons to total carbons in one repeat unit is 7/18.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_618",
+      "text": "In <iupac_start>poly[(ethylene glycol)-alt-(1,2-dihydrocyclobutabenzene-3,6-dicarboxylic acid)]<iupac_end>, what is the total number of heteroatoms in one repeat unit?",
+      "qid": 618,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 6 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"15 heteroatoms total: 2 nitrogen atoms (from hydrazide groups), 4 oxygen atoms (2 from ester linkages, 2 from hydrazide groups), and 1 oxygen atom (from the ether linkage in ethylene glycol segment). This high heteroatom content contributes to the polymer's polar character and hydrogen bonding capabilities. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> 7 <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['12']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1687",
+      "text": "With a molar refractivity of 64.599 cm³/mol and 90 valence electrons per repeat unit, what structural characteristics of <iupac_start>poly(1,4-phenylene{1-[4-(trifluoromethyl)phenyl]ethene-1,2-diyl})<iupac_end> contribute to these optical properties?",
+      "qid": 1687,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The high molar refractivity and valence electron count are due to the extended π-electron conjugation through two aromatic rings and vinyl linkage, enhanced by the electron-withdrawing effects of the -CF3 group, creating significant electron polarizability. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The high molar refractivity and valence electron count arise from: 1) The presence of two aromatic rings per repeat unit providing extensive π-electron systems that enhance polarizability, 2) The conjugated vinyl bridge connecting the aromatic rings allowing electron delocalization across the entire repeat unit, and 3) The electron-withdrawing trifluoromethyl group that increases electron density in the aromatic system through inductive effects, all contributing to enhanced interaction with electromagnetic radiation. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The high molar refractivity (64.599 cm³/mol) and large number of valence electrons (90) arise from: 1) The presence of two aromatic rings providing extensive electron delocalization and polarizability, 2) The trifluoromethyl group contributing additional electron density and polarizability through its C-F bonds, and 3) The ethene linkage maintaining conjugation between the aromatic systems, allowing for enhanced electronic transitions and light interaction. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The presence of aromatic rings and the trifluoromethyl group.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1208",
+      "text": "Design a polymer containing exactly 7 heteroatoms per repeat unit while maintaining a Bertz complexity index above 680. The structure must incorporate both aromatic and heterocyclic components, with at least 4 amide/urea functionalities for specific property control.",
+      "qid": 1208,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design a polymer with two phenyl rings connected by an ether oxygen, with each ring linked to a cyclic urea (imide) group. This provides 7 heteroatoms (1 ether O, 2 N atoms, 4 carbonyl O atoms), achieves high structural complexity (Bertz index >680) through multiple rings and connections, and incorporates 4 amide/urea functionalities within the cyclic imide structure. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Design a polymer using <iupac_start>2,4-diamino-5-thioxo-1,3,4-oxadiazole<iupac_end> and <iupac_start>2,4-dicarbonyl-1,3-dioxoisoindoline<iupac_end> monomers. The resulting polymer contains 7 heteroatoms (N, O, S) per repeat unit, with 4 amide/urea linkages, and maintains high structural complexity through the combination of oxadiazole and isoindoline units. The aromatic rings provide rigidity while the heterocyclic components contribute to the high Bertz complexity index. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['Design a polymer with <smiles_start>[*]C(=O)Nc1ccc(NC(=O)c2ccc(NC(=O)c3ccc(-c4nc([*])cs4)cc3)cc2)cc1<smiles_end>. This structure achieves 7 heteroatoms (4N, 3O) through strategic placement of amide linkages and a thiophene ring. The combination of phenylene and thiophene units creates high structural complexity (>680 Bertz index), while the four amide/urea groups provide specific property control through hydrogen bonding and electronic effects. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polymer structure: Poly[(2,5-dioxopyrrolidin-1-yl)oxycarbonyl-1,4-phenylenedicarbonyl-urea-1,3-diazepane].']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1648",
+      "text": "If the piperazine rings in <iupac_start>poly{[1,10-bis(1-piperazino)decane]-alt-(decanedioic acid)}<iupac_end> were replaced with linear alkyl amines, how would this affect the trade-off between density (currently 0.971 g/cm³) and hydrogen bonding capability (currently 6 NOCount)?",
+      "qid": 1648,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> Replacing piperazine rings with linear alkyl amines would likely increase density above 0.971 g/cm³ due to more efficient chain packing, but would reduce hydrogen bonding capability by lowering the NOCount below 6, weakening intermolecular forces and cohesive strength. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Replacing piperazine rings with linear alkyl amines would increase density above 0.971 g/cm³ due to tighter chain packing enabled by reduced conformational bulk. However, this would come at the cost of reduced hydrogen bonding capability since linear amines provide fewer hydrogen bond acceptors than piperazine rings (reducing from 6 to 4 NOCount). The current piperazine structure offers better hydrogen bonding potential for intermolecular interactions, while the proposed modification would favor denser packing but sacrifice some cohesive strength from reduced hydrogen bonding sites. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Replacing piperazine rings with linear alkyl amines would increase the density above 0.971 g/cm³ due to tighter chain packing of linear segments, but would reduce hydrogen bonding capability below 6 NOCount due to loss of the cyclic amine structure that enables multiple H-bonding orientations. This modification prioritizes structural compactness over intermolecular interaction strength. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Replacing piperazine rings with linear alkyl amines would likely decrease density and reduce hydrogen bonding capability.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1818",
+      "text": "In <iupac_start>poly[(diethylsilanediyl)propane-1,3-diyl]<iupac_end>, how do the propylene spacer, diethylsilyl group, and Si-C bonds individually contribute to achieving its high chain flexibility?",
+      "qid": 1818,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The propylene spacer contributes three freely rotating methylene units, the diethylsilyl group adds rotational freedom through its ethyl substituents, and the longer Si-C bonds provide increased spatial separation - collectively enabling high chain flexibility through 5 rotatable bonds per repeat unit. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Each component contributes distinctly to chain flexibility: The propylene spacer provides three consecutive sp3 carbons with free rotation around single bonds, enabling multiple conformational states; the diethylsilyl group adds additional rotational freedom through its two ethyl substituents while maintaining a tetrahedral geometry at silicon; the Si-C bonds, being longer than C-C bonds, allow greater bond angles and rotational freedom. Together, these elements create 7 rotatable bonds per repeat unit, with the silicon center serving as a flexible hub that enhances overall chain mobility while maintaining structural integrity. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Each component contributes distinctly to flexibility: The propylene spacer provides free rotation around sp3-sp3 C-C bonds with low energy barriers; the diethylsilyl group adds rotational freedom through Si-C bonds with wider bond angles than carbon-carbon bonds; the Si-C bonds themselves have longer bond lengths and lower rotational barriers compared to C-C bonds. These combined features result in enhanced conformational mobility while maintaining structural integrity. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The propylene spacer, diethylsilyl group, and Si-C bonds all contribute to high chain flexibility by introducing rotational freedom and reducing steric hindrance, allowing the polymer chains to move and rotate more freely.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1947",
+      "text": "With 8 hydrogen bond acceptors and 2 donors, plus a low heat of fusion (0.002 kcal/g), what must be the arrangement of polar groups in <iupac_start>poly{sulfonyl[4,4'-bis(10-sulfodecyloxy)biphenyl-3,3'-diyl]}<iupac_end>?",
+      "qid": 1947,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The structure must have two terminal sulfonic acids (6 acceptors, 2 donors), two ether linkages (2 acceptors), separated by long decyloxy chains to prevent ordered packing, resulting in the observed low crystallinity. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The polar groups must be arranged as: 1) Sulfone groups (-SO2-) that can act as hydrogen bond acceptors, 2) Sulfide linkages (-S-) that can also serve as hydrogen bond acceptors, and 3) Ether linkages (-O-) that provide additional hydrogen bond accepting sites. The low heat of fusion indicates these polar groups are distributed along the polymer backbone rather than clustered together, preventing strong intermolecular interactions that would lead to crystallization. This arrangement creates a balance of polar interactions while maintaining chain mobility. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polar groups must be arranged with the sulfonyl and sulfide oxygens oriented outward from the biphenyl core, separated by the long alkyl chains. This arrangement prevents strong intermolecular interactions between polar groups, explaining the low heat of fusion while maintaining the hydrogen bonding capability through the distributed oxygen atoms. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "[\"The arrangement of polar groups in poly{sulfonyl[4,4'-bis(10-sulfodecyloxy)biphenyl-3,3'-diyl]} must be such that the sulfonyl and sulfonic acid groups are evenly distributed along the polymer chain, allowing for optimal hydrogen bonding and low crystallinity, which contributes to the low heat of fusion.\"]"
+        }
+      ]
+    },
+    {
+      "id": "rp_1312",
+      "text": "How would the thermal stability (decomposition temperature) be affected by the combination of octafluorobiphenyl units, seven ring systems, and tert-butyl groups in this polymer's structure, and which structural elements contribute most significantly?",
+      "qid": 1312,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would exhibit high thermal stability with decomposition temperature above 450°C. The aromatic ring systems and C-F bonds of the octafluorobiphenyl units are most responsible for this stability through their high bond energies and extensive conjugation, while tert-butyl groups play a secondary protective role. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> The polymer would exhibit high thermal stability with decomposition temperature likely above 400°C. The octafluorobiphenyl units are most responsible for thermal stability due to strong C-F bonds and electronic delocalization across the biphenyl system. The seven ring systems provide additional thermal resistance through rigid, cyclic structures that resist chain mobility at elevated temperatures. The tert-butyl groups contribute secondarily by providing steric protection to the backbone, though their aliphatic nature makes them less thermally stable than the aromatic components. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer would demonstrate high thermal stability with decomposition temperatures above 450°C. The octafluorobiphenyl units contribute most significantly through strong C-F bonds and rigid biphenyl structure resisting thermal motion. The seven-ring systems provide additional thermal resistance through their inherent stability, while tert-butyl groups offer some protection against oxidative degradation. The fluorinated segments are most crucial for thermal performance due to their chemical inertness and bond strength. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The thermal stability of the polymer would be significantly enhanced by the presence of octafluorobiphenyl units and seven ring systems, as these provide rigidity and thermal resistance due to strong C-F bonds and aromatic stabilization. The tert-butyl groups may slightly reduce thermal stability due to their bulky and less thermally stable nature. The octafluorobiphenyl units and the seven ring systems contribute most significantly to the thermal stability.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_291",
+      "text": "Design a polymer with a FractionCSP3 of 0.3 that contains exactly 2 benzene rings and 4 total rings (2 aliphatic, 2 aromatic) per repeat unit, while maintaining a glass transition temperature of 187±1°C. The structure must include 8 amide groups and 2 hydrazide linkages for cohesive energy density.",
+      "qid": 291,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design a polyimide-hydrazide with two isoindoline units (providing 2 benzene rings and 2 aliphatic rings), connected by a pentane spacer. Include hydrazide linkages between repeat units and position amide groups around the aromatic rings to achieve exactly 8 amide groups. The structure should maintain the precise ratio of sp3 carbons through careful placement of the aliphatic segments. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"Design a polymer using <iupac_start>4,4'-oxydianiline<iupac_end> and <iupac_start>2,2'-diamino-4,4'-[oxybis(4,1-phenylenecarbonylhydrazide)]diphenol<iupac_end>. The structure contains exactly 2 benzene rings and 4 total rings (2 aliphatic from hydrazide linkages, 2 aromatic), with 8 amide groups and 2 hydrazide linkages providing cohesive energy. The aromatic content and rigid hydrazide linkages ensure high Tg of 187°C, while the ether and hydrazide groups provide the required FractionCSP3 of 0.3. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Design a polymer with two phenylene rings connected by hydrazide linkages (-CO-NH-NH-CO-) and two aliphatic rings containing amide groups (-NH-CO-). This creates a structure with exactly 2 benzene rings and 4 total rings (2 aromatic, 2 aliphatic), where the hydrazide linkages provide 4 amide groups plus 2 additional amide groups from the aliphatic segments, totaling 8 amide groups. The balance of rigid aromatic and flexible aliphatic segments, along with the extensive hydrogen bonding network from the amide and hydrazide groups, achieves the target Tg of 187±1°C while maintaining the required FractionCSP3 of 0.3. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polymer structure: [-NH-C(=O)-C6H4-C(=O)-NH-C6H4-C(=O)-NH-NH-C(=O)-NH-C6H10-C(=O)-NH-C6H10-C(=O)-NH-NH-C(=O)-]n']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1535",
+      "text": "How do the 11 unbranched alkane segments and 80% sp3 character in <iupac_start>poly[oxy(6-oxohexane-1,6-diyl)oxyethyleneoxy(1-oxohexane-1,6-diyl)oxycarbonyliminohexane-1,6-diyliminocarbonyl]<iupac_end> contribute to its chain flexibility and processability?",
+      "qid": 1535,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The 11 unbranched alkane segments provide extensive rotational freedom and multiple possible conformations, while the 80% sp3 character creates tetrahedral geometries that allow chain folding. Together, these features enable high chain mobility and easy conformational changes, resulting in good processability. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The high proportion of sp3 carbons (80%) and 11 unbranched alkane segments create significant chain flexibility through multiple mechanisms: The sp3 hybridization allows free rotation around single bonds, while the long alkane segments provide extended flexible regions between rigid points. These features reduce chain stiffness and lower the energy barrier for conformational changes, enabling easier processing. The absence of rigid aromatic or conjugated segments means fewer restrictions on chain movement, resulting in lower melt viscosity and better processability compared to rigid polymers. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The 11 unbranched alkane segments provide extensive conformational freedom through unrestricted rotation around C-C single bonds, enabling multiple chain conformations. The high sp3 character (80%) creates tetrahedral geometry with bond angles of 109.5°, allowing free rotation and reducing chain rigidity. These structural features work together to enhance chain mobility and improve processability by reducing melt viscosity and lowering processing temperatures. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The 11 unbranched alkane segments increase chain flexibility by allowing free rotation around C-C bonds, and the 80% sp3 character contributes to processability by providing a more linear and less rigid chain structure.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1646",
+      "text": "Identify the polymerization mechanism for <smiles_start>CC(C)(C)C(N)C(=N)N<smiles_end>  and <smiles_start>O=C=NCCCCCCN=C=O<smiles_end>.",
+      "qid": 1646,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Addition polymerization <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Addition polymerization <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Addition polymerization <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Step-growth polymerization.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1689",
+      "text": "In <iupac_start>poly(N,N-diphenyl-4-tert-butylaniline)<iupac_end>, how do the 3 rotatable bonds, 18 aromatic carbons, and tert-butyl substituent mechanistically combine to influence conformational flexibility and chain packing?",
+      "qid": 1689,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer's packing behavior results from competing factors: the three rotatable bonds enable limited conformational adjustment, the 18 aromatic carbons create rigid planar segments that could promote stacking, but the bulky tert-butyl group introduces steric hindrance that disrupts close chain packing, ultimately leading to reduced packing efficiency. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The conformational behavior arises from three structural elements: The 3 rotatable bonds (around the N-phenyl and N-tert-butyl connections) provide local flexibility for chain movement; the 18 aromatic carbons create rigid planar segments that restrict overall chain mobility and promote π-π stacking; the bulky tert-butyl group acts as a steric hindrance that prevents close chain packing while also providing rotational freedom around the N-C bond. This combination results in a polymer with selective flexibility at specific points while maintaining overall structural rigidity through the aromatic framework. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The structural elements affect flexibility and packing through specific mechanisms: The 3 rotatable bonds (N-phenyl and N-C(CH3)3) provide limited conformational freedom; the 18 aromatic carbons create rigid planar segments that promote π-stacking and reduce chain mobility; the tert-butyl group introduces steric bulk that disrupts close packing while potentially creating free volume. These features work together to balance flexibility with structural order. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The rotatable bonds increase conformational flexibility, while the bulky tert-butyl group and rigid aromatic rings hinder close packing, leading to a more amorphous polymer structure.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_790",
+      "text": "Modify <iupac_start>poly{1-methyl-1-[2-(triethoxysilyl)ethyl]ethylene}<iupac_end> to create a polymer with enhanced surface activity by replacing one ethoxy group with a fluorinated chain while maintaining exactly 3 H-bond acceptors and ensuring the molecular weight stays below 300 g/mol per repeat unit.",
+      "qid": 790,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design poly{1-methyl-1-[2-(diethoxy(2,2,2-trifluoroethoxy)silyl)ethyl]ethylene}. Replace one ethoxy group with 2,2,2-trifluoroethoxy while keeping two ethoxy groups. This maintains 3 H-bond acceptors through the remaining ethoxy groups and new fluorinated alkoxy, provides surface activity through CF3, and keeps MW ~285 g/mol per repeat unit. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Design a polymer using <iupac_start>1-methyl-1-[2-(2,2,2-trifluoro-2-hydroxyethyl)silyl]ethylene<iupac_end> and <iupac_start>2,2,2-trifluoro-2-hydroxyethanol<iupac_end>. This maintains 3 H-bond acceptors (2 from siloxy groups, 1 from ester), adds surface-active fluorinated segments while keeping molecular weight below 300 g/mol per repeat unit. The methyl group remains for controlled flexibility. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Replace one ethoxy group with a trifluoroethoxy group (-OCH2CF3) on the triethoxysilyl moiety. This modification maintains the three H-bond acceptors (two from oxygen atoms in the silyl ether and one from the fluorinated chain), adds hydrophobicity for better surface properties, and keeps MW ~290 g/mol. The fluorinated chain enhances surface activity through reduced surface energy while preserving the basic polymer architecture. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['poly{1-methyl-1-[2-(trifluoropropoxy)silyl]ethyl]ethylene}']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1651",
+      "text": "What reaction type produces a polymer from <smiles_start>O=C1CNC(c2ccccc2)=NN1<smiles_end>  and <smiles_start>O=C1CNC(c2ccccc2)=NN1<smiles_end>?",
+      "qid": 1651,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Ringopening polymerization <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['<answer_start> Condensation polymerization <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Ringopening polymerization <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Step-growth polymerization.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1677",
+      "text": "In the SMILES notation <smiles_start>O=C(Cc1cc(sc1*)*)Oc1c(F)c(F)c(c(c1F)F)F<smiles_end>, how many rotatable single bonds are present in the linker between the thiophene ring and the pentafluorophenyl ring?",
+      "qid": 1677,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 3 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['4 rotatable bonds are present in the linker: 1) The C-C bond between the carboxylic acid carbon and the methylene group, 2) The C-C bond between the methylene group and the thiophene ring, 3) The C-C bond between the thiophene ring and the oxygen atom, and 4) The C-O bond connecting to the pentafluorophenyl ring. These bonds allow conformational flexibility between the aromatic rings. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> There are 3 rotatable single bonds in the linker: 1) The C-C bond between the thiophene carbon and the methylene group (Cc1), 2) The C-C bond between the methylene group and the oxygen (Cc1...O), and 3) The C-O bond connecting the oxygen to the pentafluorophenyl ring (Oc1). <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['There are 2 rotatable single bonds present in the linker between the thiophene ring and the pentafluorophenyl ring.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_853",
+      "text": "How many oxygen atoms are present in one repeating unit of <iupac_start>poly(beta-phenylglutardialdehyde)<iupac_end> based on its SMILES notation <smiles_start>*OC1OC(*)CC(C1)c1ccccc1<smiles_end>?",
+      "qid": 853,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 2 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['4 <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> 3 <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Two oxygen atoms.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_679",
+      "text": "Given that <iupac_start>poly(butyl vinyl sulfide)<iupac_end> <smiles_start>CCCCSC(C*)*<smiles_end> has a glass transition temperature of -20°C and 5 rotatable bonds per repeat unit, what structural features must be responsible for its high chain mobility?",
+      "qid": 679,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The high chain mobility is due to the combination of a flexible thioether linkage, a freely rotating butyl side chain, and an all-sp3 carbon backbone structure providing 5 rotatable bonds per repeat unit with minimal rotational barriers. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The high chain mobility is enabled by three key structural features: 1) The presence of 5 rotatable bonds per repeat unit, primarily in the butyl side chain, allowing multiple conformational states, 2) The flexible sulfide linkage (-S-) which has longer bond lengths and wider bond angles compared to C-C bonds, providing additional rotational freedom, and 3) The absence of rigid aromatic or conjugated segments that would restrict chain movement. These features collectively result in the low glass transition temperature of -20°C by minimizing energy barriers to chain rotation and conformational changes. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The high chain mobility at -20°C glass transition temperature is due to three key structural features: 1) The flexible butyl side chains with 5 rotatable bonds provide significant free volume and conformational freedom, 2) The single sulfur atom in the backbone allows for relatively weak intermolecular interactions compared to oxygen or nitrogen, reducing chain-chain cohesion, and 3) The lack of rigid aromatic or bulky substituents permits easy segmental motion even at low temperatures. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The presence of flexible butyl groups and sulfur atoms, which provide a low rotational energy barrier, contribute to the high chain mobility of poly(butyl vinyl sulfide).']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1293",
+      "text": "Design a polymer with a Bertz complexity index above 1700 that maintains thermal stability up to 520K (10% weight loss), incorporates exactly 18 heteroatoms per repeat unit, and has a molecular weight between 615-620 g/mol. The structure must balance rigid and flexible segments while providing 5 distinct functional groups.",
+      "qid": 1293,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design a copolymer containing isoindoline-based imide units, hydrazide linkages, an ethyl ester side group, and amide connections. Include two aromatic rings and a pentane spacer to achieve the target molecular weight. The five functional groups should be imide, hydrazide, amide, ester, and aromatic rings, with heteroatoms distributed across oxygen and nitrogen in these groups. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"Design a polyester using <iupac_start>6,6'-disulfanediylbis(pyridine-3-carboxylic acid)<iupac_end> and <iupac_start>4-methyl-1,3-cyclopentanediol<iupac_end>. The pyridine-disulfide component provides thermal stability and high complexity, while the cyclic diol with methyl substituent adds controlled flexibility. The structure contains exactly 18 heteroatoms (N, O, S) and 5 distinct functional groups (ester, ether, disulfide, pyridine, methyl), with MW ~620 g/mol. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['Design a complex polymer containing: (1) Two aromatic rings connected by an ether linkage, (2) A fused bicyclic system with nitrogen atoms, (3) Multiple carbonyl groups in different chemical environments (amide, imide, ester), (4) One sulfone group, and (5) A trifluoromethyl substituent. This combination achieves high Bertz complexity through varied connectivity patterns, maintains thermal stability through aromatic content and strong bonds, and reaches target MW through precise atomic composition. The heteroatom count (18) comes from strategic placement of O, N, S, and F atoms in diverse functional groups. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(p-phenylene ether sulfone) with repeating units of C_24H_16N_2O_6S_2, which includes ether, sulfone, amine, aryl, and carbonyl functional groups.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_142",
+      "text": "If <iupac_start>poly[(ethane-1,2-dithiol)-alt-(2,3,8,9-tetrathiadecanedioyl dichloride)]<iupac_end> has 10 heavy atoms per repeat unit and a Bertz complexity index of 73.9, what structural features contribute to this moderate complexity?",
+      "qid": 142,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The polymer's moderate complexity arises from its alternating arrangement of sulfide and disulfide linkages, the presence of two different types of sulfur-containing functional groups, and a linear unbranched backbone containing 10 heavy atoms in a regular pattern. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The moderate Bertz complexity index of 73.9 arises from: 1) The presence of two different types of sulfur-containing functional groups (thioketones and sulfides) creating structural variety, 2) The asymmetric distribution of atoms with 10 heavy atoms per repeat unit including both carbon and sulfur atoms, and 3) The combination of linear aliphatic segments with cyclic thioketone units creating a moderately complex repeating pattern. The relatively low complexity index despite these features suggests a regular, repeating structure without extensive branching or complex substitution patterns. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The moderate Bertz complexity index of 73.9 arises from: 1) The alternating arrangement of ethane-1,2-dithiol and tetrathia decanedioyl units creating a regular but varied sequence, 2) The presence of both sulfur and carbon atoms in different chemical environments (thiol vs. disulfide vs. alkyl), and 3) The combination of linear and cyclic sulfur-containing segments within the repeat unit structure. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The presence of alternating dithiol and tetrathiadecanedioyl dichloride units, with multiple sulfur atoms and potential for disulfide linkages, contributes to the moderate complexity.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_275",
+      "text": "With 23 rotatable bonds and a sp3 carbon fraction of 0.5 in <iupac_start>poly({2,2'-[(6-{4-[2-(4-nitrophenyl)ethenyl]phenoxy}hexyl)imino]diethanol}-alt-(1,6-diisocyanatohexane))<iupac_end>, what chain flexibility and processability characteristics would you predict, and which structural elements contribute most?",
+      "qid": 275,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would exhibit good processability with moderate melt flow characteristics. The hexyl spacers and ether linkages are most responsible for chain flexibility, while maintaining sufficient structural integrity from the aromatic segments for handling. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Rank 1: The polymer would exhibit high chain flexibility and good processability. The 23 rotatable bonds, primarily in the hexyl spacer and ethanol segments, provide significant conformational freedom. The high sp3 carbon fraction (0.5) indicates substantial aliphatic character, allowing easy chain movement. The hexyl spacer is most responsible for flexibility, while the ethanol segments contribute to processability through hydrogen bonding interactions. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer would exhibit high chain flexibility and good processability. The 23 rotatable bonds, primarily in the hexyloxy and hexamethylene segments, allow significant conformational freedom. The moderate sp3 carbon fraction (0.5) indicates a balanced mix of flexible aliphatic and rigid aromatic regions. The hexyloxy spacer is most responsible for flexibility, while the aromatic segments provide sufficient structural integrity without excessive rigidity. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The polymer is likely to have moderate to high chain flexibility and good processability due to the high number of rotatable bonds and a moderate fraction of sp3 carbons. The ether linkages, hexyl chains, and imino diethanol moieties contribute most to flexibility, while the alternating urethane linkages between diisocyanatohexane units provide structural regularity for processability.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_588",
+      "text": "In <iupac_start>poly[(terephthalic acid)-alt-(pentane-1,5-diol)]<iupac_end>, how do the ester linkages and aromatic rings separately contribute to the refractive index of 1.634 through specific electronic and polarizability mechanisms?",
+      "qid": 588,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The high refractive index of 1.634 results from ester linkages contributing localized electron density through polar C=O bonds and resonance effects, while aromatic rings provide extensive electron delocalization and enhanced polarizability through their π-electron systems, creating strong light-matter interactions. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"The refractive index of 1.634 arises from distinct contributions: The ester linkages contribute through their polarizable C=O bonds and electronegative oxygen atoms, creating local dipoles that respond to electromagnetic radiation; the aromatic rings provide enhanced polarizability through their delocalized π-electron systems, allowing for greater electron cloud distortion in response to light. The ester groups' higher local electron density and the aromatic rings' extended π-systems work synergistically to increase the overall molecular polarizability, resulting in the observed refractive index value. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The refractive index of 1.634 arises from distinct contributions: The ester linkages contribute through their high electron density and polarizable carbonyl groups, creating localized dipoles that enhance light-matter interaction. The aromatic rings provide greater contribution through their delocalized π-electron systems and higher polarizability due to extended conjugation, which significantly increases electron density fluctuations in response to incident light. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The ester linkages contribute to the refractive index through their polar carbonyl groups, which enhance polarizability by allowing dipole interactions and electron cloud distortion. The aromatic rings contribute by providing a dense, conjugated pi-electron system that increases electronic polarizability, further raising the refractive index.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1549",
+      "text": "Given that <iupac_start>poly[(1,3-dioxoisoindoline-2,4-diyl)oxy-1,4-phenylene(2,2,2-trifluoro-1-trifluoromethylethane-1,1-diyl)-1,4-phenyleneoxy]<iupac_end> has a glass transition temperature of 234°C and contains 12 rotatable bonds, what structural features must be present to enable this combination of mobility and thermal resistance?",
+      "qid": 1549,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The structure must contain rigid isoindoline and phenylene units connected by flexible ether linkages, with bulky bis(trifluoromethyl) groups that restrict rotation while maintaining thermal stability. This combination allows limited molecular motion through the 12 rotatable bonds while still achieving a high Tg of 234°C. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['This combination is achieved through: 1) The presence of rigid aromatic rings (two phenylene units and one isoindoline) that provide thermal stability and restrict chain motion, 2) The strategic placement of 12 rotatable bonds primarily in the ether linkages and trifluoromethyl groups that allow controlled segmental motion, and 3) The trifluoromethyl groups that increase chain spacing and reduce intermolecular forces while maintaining thermal stability through strong C-F bonds. This creates a balance between chain mobility and thermal resistance. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer requires three key structural features: 1) Rigid aromatic segments (two phenylene rings and phthalimide unit) that provide thermal stability and maintain structural integrity at high temperatures, 2) Flexible ether linkages and the hexafluoroisopropylidene group that provide 12 rotatable bonds for chain mobility, and 3) The trifluoromethyl groups that create steric hindrance while maintaining chain flexibility through their bulky nature. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The polymer must have a rigid backbone due to aromatic rings and imide linkages, which contribute to high thermal resistance, and flexible ether linkages or other flexible groups that allow for some mobility, despite the presence of multiple rotatable bonds.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_750",
+      "text": "In <iupac_start>poly{[4,4'-bis(acetyloxy)biphenyl]-alt-[1,3-dioxo-2-(4-carboxybutyl)isoindoline-5-carboxylic acid]}<iupac_end>, how do the 2 ester linkages, 2 ether bonds, and imide group each contribute to the high Bertz complexity index of 1288.2 through their specific structural effects?",
+      "qid": 750,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The high Bertz complexity of 1288.2 results from ester linkages providing restricted rotation and hydrogen bond accepting sites, ether bonds contributing specific bond angles and rotational degrees of freedom, and the imide group adding rigid planar geometry with specific electronic distribution through its dual carbonyls. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Each functional group contributes uniquely to the Bertz complexity: The 2 ester linkages add complexity through their planar geometry and restricted rotation around the C-O bonds while providing two distinct oxygen environments; the 2 ether bonds contribute through their angular geometry and ability to rotate, creating multiple possible conformations; the imide group adds significant complexity through its rigid planar structure, restricted rotation, and multiple substitution patterns. Together, these groups create a complex 3D architecture with numerous possible conformational states and electronic interactions. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Each functional group contributes uniquely to the Bertz complexity: The 2 ester linkages add complexity through their planar geometry and specific electronic distribution, creating distinct molecular environments; the 2 ether bonds introduce additional branching points and rotational degrees of freedom; the imide group contributes through its rigid cyclic structure and multiple substitution patterns. These elements combine to create numerous unique atomic environments and connectivity patterns that generate the high complexity value. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The ester linkages, ether bonds, and imide group contribute to the high Bertz complexity index by introducing diverse functional groups, increasing connectivity and branching, and enhancing the overall structural intricacy of the polymer.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1662",
+      "text": "Design a polymer with similar flexibility to <iupac_start>poly{1-methyl-1-[2-(triethoxysilyl)ethyl]ethylene}<iupac_end> (10 rotatable bonds) but replace the triethoxysilyl group with a pendant group that maintains 3 H-bond acceptors while reducing the molecular weight below 200 g/mol per repeat unit. The design must preserve the saturated backbone structure.",
+      "qid": 1662,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design poly(2-methyl-2-(2-methoxyethoxymethyl)propylene) with a 2-methoxyethoxymethyl pendant group. This provides 3 H-bond acceptors through ether oxygens, maintains backbone saturation, achieves ~185 g/mol per repeat unit, and provides 10 rotatable bonds through the flexible ether chain and backbone. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Design a polyester using <iupac_start>2-(hydroxymethyl)-2-methylpropane-1,3-diol<iupac_end> and <iupac_start>4-(ethoxycarbonyl)-2-methylpyridine<iupac_end>. The diol provides the required methyl group and backbone flexibility, while the pyridine ester pendant provides exactly 3 H-bond acceptors (2 from ester, 1 from pyridine nitrogen) and maintains a lower molecular weight than the triethoxysilyl group. The saturated backbone structure is preserved through the diol component. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Replace the triethoxysilyl group with a methoxy-substituted cyclohexane ring containing two additional ether linkages. This maintains 10 rotatable bonds through the backbone and pendant group, provides 3 H-bond acceptors via the methoxy and two additional ether oxygens, and reduces MW to approximately 190 g/mol per repeat unit while preserving the saturated backbone structure. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly{1-methyl-1-[2-(methoxyethoxy)ethyl]ethylene}']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1739",
+      "text": "Based on the presence of two ester groups, two ether groups, one amide linkage, and a Bertz complexity index of 1120.7, what chemical stability would you predict for <iupac_start>poly({isobutyl 3-(4-hydroxyphenyl)-2-[3-(4-hydroxyphenyl)propanoylamino]propanoate}-alt-(sebacic acid))<iupac_end>, and which structural features are most vulnerable?",
+      "qid": 1739,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would show moderate chemical stability with vulnerability to hydrolytic degradation. The two ester groups are most susceptible to degradation, followed by the amide linkage, while the ether groups contribute to relative stability under non-oxidizing conditions. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The polymer would show moderate chemical stability with selective vulnerability to hydrolysis. The ester and amide linkages are most susceptible to chemical degradation, particularly under acidic or basic conditions, due to their susceptibility to hydrolysis. The high Bertz complexity index (1120.7) indicates numerous potential reaction sites, while the ether linkages provide some stability. The ester groups would be most vulnerable, followed by the amide linkage, with the ether and aromatic segments being most chemically stable. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer would show moderate chemical stability with selective vulnerability to hydrolysis. The ester and amide linkages are most susceptible to degradation through hydrolytic cleavage, particularly under acidic or basic conditions. While the high structural complexity (Bertz index 1120.7) suggests numerous potential interaction sites, the presence of multiple polar functional groups makes these regions more accessible to hydrolytic attack compared to the more stable aromatic segments. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The polymer is likely to have moderate chemical stability with vulnerability at the ester groups, which are susceptible to hydrolysis.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_855",
+      "text": "Design a polymer variant that increases the molar refractivity to 110 cm³/mol from the original 103.17 cm³/mol while maintaining the same number of rings (3) and rotatable bonds (6), but allows for a maximum 5% increase in molecular weight from 346.43 g/mol.",
+      "qid": 855,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Introduce a sulfur atom in place of one oxygen in the oxyethylene linkage and add a bromine substituent on one of the phenylene rings. The sulfur atom and bromine will significantly increase polarizability and thus molar refractivity, while adding only ~15 g/mol to the molecular weight. The three-ring structure and number of rotatable bonds remain unchanged. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Design a polymer using <iupac_start>2,6-dimethyl-4-(2,2-dimethyl-3-hydroxypropyl)phenol<iupac_end> and <iupac_start>2,6-dimethyl-4-(2,2-dimethyl-3-hydroxypropyl)phenol<iupac_end>. The additional methyl groups increase molar refractivity through enhanced polarizability while maintaining the same ring count and rotatable bonds. The slight increase in molecular weight (up to 5%) is justified by the enhanced optical properties. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Replace the cyclopentane ring with a cyclohexane ring while keeping the methyl ester and hydroxyl functionalities. This modification increases molar refractivity through greater electron density and polarizability of the larger ring system while maintaining the same number of rings and rotatable bonds. The molecular weight increase is limited to 5% due to the similar mass of cyclohexane versus cyclopentane. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['To achieve a molar refractivity of 110 cm³/mol while maintaining the same number of rings (3) and rotatable bonds (6), and allowing for a maximum 5% increase in molecular weight from 346.43 g/mol (i.e., up to 363.75 g/mol), introduce aromatic groups such as thiophene or furan to replace some alkyl groups. This will increase the refractivity without significantly increasing the molecular weight.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1956",
+      "text": "How do the L-ornithine backbone, p-chlorobenzoyl pendant groups, and amide linkages in <iupac_start>poly[N(delta)-(p-chlorobenzoyl)-L-ornithine]<iupac_end> contribute to its moderate density of 1.3 g/cm³?",
+      "qid": 1956,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The moderate 1.3 g/cm³ density results from L-ornithine's flexible backbone enabling chain compaction, p-chlorobenzoyl groups providing efficient aromatic stacking and increased mass density from chlorine atoms, and amide linkages creating inter-chain hydrogen bonds that promote close packing while maintaining structural order. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The moderate density of 1.3 g/cm³ results from competing structural effects: The L-ornithine backbone with its branched aliphatic segments creates local free volume that reduces density; the p-chlorobenzoyl pendant groups contribute higher density through their rigid aromatic structure and chlorine atom; the amide linkages enable efficient chain packing through hydrogen bonding while maintaining some free volume. The balance between these components - flexible backbone segments, dense aromatic groups, and ordered amide interactions - produces the intermediate density value. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The moderate density results from specific structural contributions: the L-ornithine backbone creates a helical structure that allows efficient packing but maintains some free volume; the p-chlorobenzoyl pendant groups introduce bulky planar segments that increase interchain spacing; the amide linkages enable hydrogen bonding networks that pull chains together, but their regular spacing prevents extremely tight packing. These competing effects balance to yield the intermediate density value. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The L-ornithine backbone provides a regular, linear structure contributing to moderate density, p-chlorobenzoyl pendant groups increase density due to their aromatic nature and chlorine atoms, and amide linkages offer moderate density due to their polar nature and orderly arrangement.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1498",
+      "text": "What reaction type produces a polymer from <smiles_start>CCOC(=O)c1c(N)n[nH]c1N<smiles_end>  and <smiles_start>O=C=Nc1ccc(Oc2ccc(N=C=O)cc2)cc1<smiles_end>?",
+      "qid": 1498,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Addition polymerization <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Condensation polymerization    <answer_start> <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Addition polymerization <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Polyaddition.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_833",
+      "text": "Design a polymer with a softening temperature below 70°C that maintains structural integrity through aromatic units while incorporating at least 14 rotatable bonds and 2 hydrogen bonding groups. The target molecular weight should be 380-400 g/mol per repeat unit.",
+      "qid": 833,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design <iupac_start>poly(p-xylylenedimethylamine-alt-dodecanedioic acid)<iupac_end> with a para-substituted benzene core connected to N-methylated amide linkages and a C12 aliphatic chain. This provides 15 rotatable bonds through the aliphatic segment and methylene spacers, two amide groups for H-bonding, and sufficient chain mobility for sub-70°C softening while maintaining structural integrity via the aromatic unit. The molecular weight of ~390 g/mol meets the target range. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"Design a polyester using <iupac_start>4,4'-sulfonylbis(4,1-phenylene) diacetic acid<iupac_end> and <iupac_start>2,2-dimethyl-1,3-propanediol<iupac_end>. The structure provides 14 rotatable bonds through the methylene spacers, maintains structural integrity via aromatic rings, and includes 2 hydrogen bonding groups from the sulfonyl unit. The dimethyl substitution on the diol component helps achieve the target softening temperature while maintaining processability. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['Design a polyester using <iupac_start>2-(2,4-dichlorophenyl)succinic acid<iupac_end> and <iupac_start>2,2-bis(hydroxymethyl)-1,4-dioxane<iupac_end>. The dichlorophenyl group provides thermal stability while being flexible enough to keep softening temperature low. The dioxane diol contributes 14 rotatable bonds and two hydrogen bonding sites through its hydroxyl groups. This combination achieves MW ~390 g/mol while maintaining processability. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(hexamethylene terephthalamide) with added ethylene glycol units.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_287",
+      "text": "How does the combination of structural rigidity (Bertz complexity index: 1312.7) and functional group diversity in this polymer's repeating unit (MW: 459.33 g/mol) influence its overall molecular architecture?",
+      "qid": 287,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The polymer's complex molecular architecture results from the combination of rigid aromatic segments (24 aromatic carbons) and diverse functional groups in its large repeating unit. The high Bertz complexity index of 1312.7 reflects this structural sophistication, where multiple functional groups (ether, ketone, dichloromethylidene) create a varied chemical environment while maintaining structural integrity through the aromatic backbone. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The high Bertz complexity index (1312.7) combined with the moderate molecular weight (459.33 g/mol) indicates a sophisticated molecular architecture where multiple structural elements are integrated into a relatively compact space. The complexity arises from the combination of rigid aromatic segments, flexible hexyl chains, and polar amine groups, creating a structure with distinct regions of different chemical and physical properties. This architectural complexity enables the polymer to maintain structural integrity while incorporating diverse functional groups, resulting in a material with both rigid and flexible characteristics that can be tailored for specific applications. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The high Bertz complexity index indicates a sophisticated molecular architecture where the rigid aromatic core is balanced by the flexible hexyl chains. This structural arrangement creates a polymer with both ordered regions (from the aromatic segments) and disordered regions (from the alkyl chains), leading to a semi-crystalline morphology. The diverse functional groups (secondary amine and benzene ring) contribute to complex intermolecular interactions, resulting in a polymer with both crystalline domains from π-π stacking of aromatic rings and amorphous regions from the mobile hexyl segments. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "[\"The combination of high structural rigidity and functional group diversity in the polymer's repeating unit leads to a complex molecular architecture that enhances both mechanical strength and versatility in chemical functionality.\"]"
+        }
+      ]
+    },
+    {
+      "id": "rp_266",
+      "text": "Calculate the molecular weight per repeat unit of <iupac_start>poly(bicyclo[2.2.1]hept-2-ene)<iupac_end> given that it contains 7 carbons and 10 hydrogens.",
+      "qid": 266,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 94.157 g/mol <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['98.2 g/mol <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> 94.2 g/mol <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['94.17 g/mol']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1103",
+      "text": "Given that <iupac_start>poly[oxy-2-oxoethylene-1,4-phenyleneoxy-1,4-phenylene-1-oxoethyleneoxy(2-methoxy-1,4-phenylene)]<iupac_end> contains 4 aromatic rings and 13 rotatable bonds, what glass transition temperature (Tg) range would you predict, and which structural elements most influence this property?",
+      "qid": 1103,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would likely exhibit a Tg in the range of 140-160°C. The four aromatic rings are the primary structural elements influencing this property by restricting chain mobility, while the 13 rotatable bonds prevent an extremely high Tg by providing some chain flexibility. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"The polymer would likely exhibit a moderate Tg in the range of 80-100°C. The four aromatic rings provide rigidity and restrict chain motion, while the 13 rotatable bonds (including ether linkages) allow some segmental mobility. The aromatic rings are most responsible for the Tg behavior by creating rigid segments that restrict chain movement, but this effect is moderated by the flexible ether linkages that act as 'molecular hinges' allowing some chain mobility. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer would likely exhibit a Tg in the range of 120-150°C. The four aromatic rings provide rigidity and restrict chain motion, increasing Tg, while the 13 rotatable bonds introduce flexibility that moderates the Tg. The aromatic rings are most influential in determining Tg by creating rigid segments that require more thermal energy to initiate chain mobility. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The glass transition temperature (Tg) range for the polymer is likely between 60-80°C. The presence of aromatic rings increases rigidity, while the rotatable bonds contribute to flexibility, influencing the Tg.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_367",
+      "text": "How does the alternating structure of flexible dodecamethylene segments and rigid aromatic units in <iupac_start>poly{(dodecane-1,12-diamine)-alt-[1,4-phenylenebis(methyl isocyanate)]}<iupac_end> influence its physical properties?",
+      "qid": 367,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The alternating structure creates a balance between flexibility and rigidity, where the dodecamethylene segments provide chain mobility and processability while the aromatic-urea units offer structural reinforcement and crystallization sites. This architectural design enables both crystalline ordering (evidenced by the 258°C melting point) and chain flexibility, resulting in a semi-crystalline polymer with good processability. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The alternating structure creates a balanced physical behavior where the rigid aromatic units provide mechanical strength and dimensional stability through π-π stacking and restricted rotation, while the flexible dodecamethylene segments with 12 rotatable bonds enable chain mobility and processability. This architectural design prevents the polymer from being either too brittle (as would be the case with purely aromatic segments) or too soft (as would be the case with purely aliphatic segments), resulting in a material with good mechanical properties while maintaining sufficient flexibility for practical applications. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The alternating structure creates a balanced molecular architecture where flexible dodecamethylene segments provide chain mobility and lower Tg (98°C), while the rigid aromatic units maintain structural integrity. This combination allows for good processability due to the flexible segments while preserving mechanical strength from the aromatic portions. The regular alternation also promotes ordered packing through the rigid segments, leading to crystallinity (36%) despite the presence of flexible chains. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The alternating structure of flexible dodecamethylene segments and rigid aromatic units in poly{(dodecane-1,12-diamine)-alt-[1,4-phenylenebis(methyl isocyanate)]} results in a material that combines flexibility and toughness. The flexible dodecamethylene segments impart elasticity and facilitate movement, while the rigid aromatic units provide strength and thermal stability. This results in a polymer with a balance of flexibility and mechanical integrity, making it suitable for applications requiring durable yet flexible materials.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_405",
+      "text": "How would the glass transition temperature (Tg) of <iupac_start>poly{4-[(lithiooxy)sulfonyl]perdeuteriostyrene}<iupac_end> compare to regular polystyrene, and which structural elements are most responsible for the difference?",
+      "qid": 405,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would exhibit a significantly higher Tg (estimated 15-25°C higher) than regular polystyrene. The lithium sulfonate groups are primarily responsible through ionic interactions between chains, with deuteration providing a minor additional increase through increased mass effects. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"<answer_start> The glass transition temperature would be significantly higher than regular polystyrene. The bulky sulfonate group (-SO2Li) is most responsible for this increase, as it restricts chain mobility and creates strong intermolecular interactions. The perdeuterio substitution on the aromatic ring further increases Tg by reducing rotational freedom and increasing chain stiffness. The combination of these elements creates more restricted molecular motion compared to regular polystyrene's pendant phenyl groups. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The Tg would be higher than regular polystyrene by approximately 30-40°C. The deuterated methyl groups increase chain stiffness through reduced rotational freedom compared to hydrogen, while the bulky lithium sulfonate groups further restrict chain mobility. The deuterated methyl groups are most responsible for the Tg elevation due to their direct impact on backbone rotation barriers. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The glass transition temperature (Tg) of poly{4-[(lithiooxy)sulfonyl]perdeuteriostyrene} would be higher than regular polystyrene. The structural elements most responsible for the difference are the sulfonyl group, which introduces polar interactions, and the perdeuteration, which increases mass and alters vibrational frequencies, both leading to restricted polymer chain mobility and a higher Tg.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1631",
+      "text": "If the sulfonyl bridge (-SO2-) in <iupac_start>poly{piperazine-alt-[4,4'-sulfonylbis(benzoyl chloride)]}<iupac_end> was replaced with a direct C-C bond, how would this affect the balance between thermal stability (Tm=380°C) and chemical resistance?",
+      "qid": 1631,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> Replacing the sulfonyl bridge with a C-C bond would lower thermal stability below 380°C due to reduced polar interactions, while creating mixed effects on chemical resistance: improved resistance to nucleophilic attack but decreased resistance to non-polar solvents. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Removing the sulfonyl bridge would increase thermal stability above 380°C due to reduced potential for thermal decomposition of the S-O bonds, but would decrease chemical resistance. The sulfonyl group provides chemical stability through its electron-withdrawing nature and ability to form protective surface films. Its removal would expose more vulnerable C-C bonds and reduce the overall electron-withdrawing character, making the polymer more susceptible to chemical attack while benefiting from higher thermal resistance. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Replacing the sulfonyl bridge with a C-C bond would decrease both thermal stability and chemical resistance. The loss of the thermally stable SO2 group would lower the melting point below 380°C due to reduced intermolecular forces. Chemical resistance would also decline since the SO2 group provides electron-withdrawing character and polarity that helps protect against chemical attack. The direct C-C bond offers neither these stabilizing effects nor the additional cross-linking potential of the SO2 group. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Replacing the sulfonyl bridge (-SO2-) with a direct C-C bond would likely increase thermal stability but decrease chemical resistance.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_732",
+      "text": "What is the molecular weight ratio between the repeat unit (522.5 g/mol) and the sum of its heteroatoms (12 atoms: O, N, S) in <iupac_start>poly{(4,4'-oxydianiline)-alt-[5,5'-sulfonylbis(isobenzofuran-1,3-dione)]}<iupac_end>?",
+      "qid": 732,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> Cannot be determined without specific counts of each heteroatom type <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"The molecular weight of the heteroatoms is: (8 × 16 g/mol for O) + (2 × 14 g/mol for N) + (1 × 32 g/mol for S) = 224 g/mol. The ratio of repeat unit molecular weight to heteroatom molecular weight is 522.5/224 = 2.33. This ratio indicates that the polymer's mass is more than twice that contributed by its heteroatoms, reflecting the significant contribution of aromatic carbon frameworks to the overall molecular weight. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The molecular weight contribution from heteroatoms is 12 × 16 = 192 g/mol (assuming typical atomic weights: O=16, N=14, S=32). Therefore, the ratio of total repeat unit mass to heteroatom mass is 522.5/192 = 2.72. This high ratio indicates that while heteroatoms contribute significantly to the structure, the majority of the mass comes from carbon-based components. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The molecular weight ratio is approximately 1.46.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_307",
+      "text": "Given that <iupac_start>poly{2-[(tert-butyldimethylsilyl)oxy]ethyl methacrylate}<iupac_end> has a FractionCSP3 of 0.9 and 6 rotatable bonds per repeat unit, what glass transition temperature (Tg) behavior would you predict, and which structural elements are most influential?",
+      "qid": 307,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would likely exhibit a moderate to high Tg around 60-80°C. The bulky tert-butyldimethylsilyl protecting group is most influential in determining Tg by restricting chain mobility, despite the presence of flexible elements (high FractionCSP3 and rotatable bonds). <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The polymer would likely exhibit a relatively low glass transition temperature (Tg) around -20°C to 0°C. The high FractionCSP3 value of 0.9 indicates predominantly sp3 hybridized carbons, while the 6 rotatable bonds provide significant chain flexibility. The tert-butyldimethylsilyl group, despite its bulk, acts as an internal plasticizer. The flexible aliphatic segments are most responsible for the low Tg by enabling easy chain mobility and rotation. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer would likely exhibit a relatively low glass transition temperature (Tg) around -20°C to -40°C. The high sp3 carbon content (FractionCSP3 = 0.9) and presence of 6 rotatable bonds in the side chain provide significant molecular mobility, while the bulky tert-butyldimethylsilyl groups create free volume that further enhances chain flexibility. The flexible ethyl spacer between the backbone and silyl ether group is most responsible for the low Tg by enabling facile segmental motion. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The high FractionCSP3 and presence of 6 rotatable bonds per repeat unit suggest a low glass transition temperature (Tg). The structural elements most influential in this behavior are the flexible siloxy side chain and the high degree of rotational freedom provided by the rotatable bonds.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_550",
+      "text": "What is the total number of rotatable bonds in a single repeat unit of <iupac_start>poly(vinyl 2,2,4-trimethylpentyl ether)<iupac_end>, excluding the main chain connections?",
+      "qid": 550,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 5 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['4 rotatable bonds. This includes: 1) the C-O bond between the backbone and oxygen, 2) the O-C bond between oxygen and the first methylene of the side chain, 3) the C-C bond between the first and second methylenes of the side chain, and 4) the C-C bond between the second and third methylenes of the side chain. The methyl groups and the backbone connections are not counted as rotatable bonds. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> 3 <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['7']"
+        }
+      ]
+    },
+    {
+      "id": "rp_635",
+      "text": "Design a polymer with a melting point of 165°C that maintains the same number of rotatable bonds (6) and hydrogen bond acceptors (3) as <iupac_start>poly[oxyethyleneoxy-1,4-phenylenemethanylylidene(5-methyl-2-oxocyclohexane-1,3-diylidene)methanylylidene-1,4-phenylene]<iupac_end>, but reduces the sp3 carbon fraction to 0.25 while keeping the molecular weight below 350 g/mol.",
+      "qid": 635,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Replace the methylated cyclohexanone with a fluorinated cyclopentanone and maintain the para-substituted phenylene rings with oxyethylene linkages. The fluorine substitution and reduced ring size will lower sp3 carbon content while maintaining similar molecular weight. The increased electronegativity and reduced conformational freedom will slightly raise the melting point, while keeping the same number of rotatable bonds and hydrogen bond acceptors. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"Design a polymer using <iupac_start>4-methyl-2-oxocyclohexane-1,3-dicarboxylic acid<iupac_end> and <iupac_start>4,4'-oxydianiline<iupac_end>. This maintains 6 rotatable bonds and 3 H-bond acceptors while reducing sp3 carbon fraction through increased aromatic content. The methyl substituent and cyclohexane ring provide controlled flexibility while maintaining thermal properties. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Design a polymer using <iupac_start>4-(carboxymethyl)benzoic acid<iupac_end> and <iupac_start>4-hydroxy-3-methylcinnamic acid<iupac_end> monomers. This structure maintains 6 rotatable bonds through the ester linkages and vinyl group, while providing 3 hydrogen bond acceptors via the ester carbonyls. The reduced sp3 fraction is achieved by maximizing aromatic content (two benzene rings) and minimizing aliphatic segments. The conjugated system with cinnamic acid provides thermal stability above 165°C while keeping MW below 350 g/mol. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly[oxyethyleneoxy-1,4-phenylenemethanylylidene(2,5-dimethylcyclohexane-1,3-diylidene)methanylylidene-1,4-phenylene].']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1751",
+      "text": "How many methyl groups are present in one repeat unit of <smiles_start>*Oc1c(cc(cc1C)C)Cc1cc(C)cc(c1OC(=O)*)C<smiles_end>?",
+      "qid": 1751,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 4 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"There are 2 methyl groups in the repeat unit. These can be identified in the SMILES notation where 'C' appears as substituents on the aromatic rings. One methyl group is attached to the first aromatic ring (c1C) and another methyl group is attached to the second aromatic ring (c1CC). <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> 3 <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['There are five methyl groups present in one repeat unit of the given SMILES structure.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_120",
+      "text": "In the SMILES notation <smiles_start>*CC(C(CO)C)*<smiles_end>, how many carbon atoms are present that have exactly three carbon atoms directly bonded to them (excluding connections to * points)?",
+      "qid": 120,
+      "question_type": "1_structural_understanding",
+      "reference_answer": "<answer_start> 2 <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['0 <answer_end> In this SMILES structure, there are no carbon atoms with exactly three carbon atoms directly bonded to them. The carbon atoms in the structure either have: 1) Two carbons and one hydrogen (CH2 groups), 2) One carbon and two hydrogens (CH groups), or 3) One carbon and one oxygen (CH-OH). The branching point carbon has two carbons and one oxygen bonded to it, not three carbons. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> 1 <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Two carbon atoms have exactly three carbon atoms directly bonded to them in the given SMILES notation.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1468",
+      "text": "How does the presence of 32 rotatable bonds and sp3-hybridized carbon framework in <iupac_start>poly{bis[(3,6,9,12,15-pentaoxahexadecyl)oxy]phosphazene}<iupac_end> influence its chain mobility and physical properties?",
+      "qid": 1468,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The 32 rotatable bonds and complete sp3-hybridization create exceptional molecular flexibility by allowing free rotation around single bonds and tetrahedral geometries, resulting in high chain mobility, likely lower glass transition temperature, and enhanced processability of the polymer. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The high number of rotatable bonds (32) and sp3-hybridized carbon framework (FractionCSP3 = 1.0) enable exceptional chain mobility because: 1) sp3 carbons form tetrahedral geometries with bond angles of 109.5°, allowing free rotation around single bonds, 2) the numerous rotatable bonds create multiple degrees of freedom for chain movement, and 3) the absence of rigid aromatic or conjugated segments prevents chain stiffening. These structural features result in enhanced chain flexibility, lower energy barriers to conformational changes, and consequently lower glass transition temperatures and improved processability compared to rigid polymers. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The high number of rotatable bonds and sp3-hybridized carbon framework significantly enhance chain mobility by allowing multiple conformational changes. Each rotatable bond provides degrees of freedom for segmental motion, while the sp3 hybridization creates tetrahedral geometry that prevents rigid planar arrangements. This results in increased flexibility and lower energy barriers to conformational changes, leading to enhanced processability, lower melting temperatures, and improved solution properties compared to polymers with rigid backbones or limited rotational freedom. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The presence of 32 rotatable bonds and an sp3-hybridized carbon framework in poly{bis[(3,6,9,12,15-pentaoxahexadecyl)oxy]phosphazene} enhances its chain mobility, leading to increased flexibility and lower glass transition temperature, which can result in a more rubbery and elastic material.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1141",
+      "text": "Design a polymer with Bertz complexity index >1700 that maintains conjugation through at least 4 carbocyclic and 1 heterocyclic aromatic rings. The structure must have exactly 0.3 fraction of sp3 carbons and include two types of nitrogen-containing functional groups for electronic properties.",
+      "qid": 1141,
+      "question_type": "6_synthesis_and_design",
+      "reference_answer": "<answer_start> Design a polymer with N-dodecylcarbazole core (provides heterocycle and one N-group) connected to hydroxyphenyl units via imine linkages (second N-group). The four carbocycles come from two hydroxyphenyl units plus carbazole's two benzene rings. The dodecyl chain plus methylene linkages provide the required sp3 carbon fraction of 0.3, while the conjugated aromatic system with multiple connection points ensures Bertz complexity >1700. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "[\"Design a polymer using <iupac_start>2,6-pyridinedicarboxylic acid<iupac_end> and <iupac_start>4,4'-bis(4-aminophenyl)-2,2'-bithiophene<iupac_end>. The bithiophene core provides conjugation through 4 carbocycles and 1 heterocycle, while the pyridine and amide linkages provide the required nitrogen functionalities. The limited sp3 carbons come from the amide linkages, maintaining the 0.3 fraction. This structure achieves high complexity through its fused ring system and multiple functional groups. <answer_end>\"]"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['Design a polymer containing alternating phenylene-vinylene units (providing conjugation) connected to a pyrimidine-based segment through ester linkages. Include pendant phenyl groups on the pyrimidine ring to increase complexity while maintaining the 0.3 sp3 carbon fraction. The structure should incorporate both amide and imine nitrogen functionalities for electronic properties. This design achieves high Bertz complexity through multiple ring systems and varied connectivity while preserving conjugation throughout the backbone. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly(9,9-dioctylfluorene-co-benzothiadiazole) with pendant aniline and pyridine groups.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1780",
+      "text": "In what way do the rigid aromatic segments (two benzene rings) and flexible pyrrolidine ring in <iupac_start>poly(1-{1-[4-({4-[2-cyano-2-(methylsulfonyl)vinyl]phenyl}diazenyl)phenyl]-3-methylpyrrolidin-3-yloxycarbonyl}-1-methylethylene)<iupac_start> combine to achieve the fractional sp3 character of 0.4?",
+      "qid": 1780,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The 0.4 fractional sp3 character results from balancing the twelve sp2 carbons from the two benzene rings against the sp3 carbons from the pyrrolidine ring (5 sp3 carbons), backbone methyl groups, and methylsulfonyl group, creating a hybrid structure with both rigid and flexible segments. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The fractional sp3 character of 0.4 results from the balanced distribution of sp2 and sp3 hybridized carbons: The two benzene rings contribute 12 sp2 carbons, while the pyrrolidine ring adds 4 sp3 carbons (including the methyl substituent). The remaining sp3 character comes from the methylethylene backbone and methylsulfonyl group. This creates a ratio where approximately 40% of all carbons are sp3 hybridized, with the rigid aromatic segments providing planar conjugated sections that are offset by the more flexible sp3-rich regions, enabling controlled chain mobility while maintaining structural integrity. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_end> The fractional sp3 character of 0.4 results from the balanced distribution of hybridization states: the two benzene rings contribute six sp2 carbons each, while the pyrrolidine ring adds four sp3 carbons. The remaining sp3 character comes from the methylsulfonyl group and other aliphatic components, creating a ratio where approximately 40% of all carbon atoms are sp3 hybridized, with the rigid aromatic segments dominating the structure. This balance between rigid planar units and flexible saturated rings determines the overall sp3 character.']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "[\"The rigid aromatic segments provide structural stability and high thermal resistance, while the flexible pyrrolidine ring introduces some degree of flexibility, allowing for conformational adjustments. The combination results in a fractional sp3 character of 0.4 by balancing rigidity from the aromatic rings and flexibility from the pyrrolidine ring, contributing to the overall polymer's mechanical and thermal properties.\"]"
+        }
+      ]
+    },
+    {
+      "id": "rp_278",
+      "text": "If the sp3 carbon fraction in <iupac_start>poly(oxy{2-[6-({4'-[(4-nitrobenzyl)oxy]biphenyl-4-yl}oxy)hexyl]malonyl}oxypropane-1,3-diyl(dimethylstannanediyl)propane-1,3-diyl)<iupac_end> is increased from 0.4 to 0.6 while maintaining the same number of polar groups, how would this affect the trade-off between chain flexibility (currently Tg = 40.5°C) and dielectric properties (16.8)?",
+      "qid": 278,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> Increasing the sp3 carbon fraction to 0.6 would likely lower the Tg below 40.5°C due to enhanced chain flexibility. While polar group mobility would improve, the dielectric constant would likely decrease from 16.8 due to reduced electronic conjugation, despite maintained polar group count. This modification favors processability at the expense of dielectric performance. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Increasing the sp3 carbon fraction from 0.4 to 0.6 would enhance chain flexibility and lower the Tg below 40.5°C due to more rotatable single bonds, improving processability. However, this would also increase the dielectric constant above 16.8 due to greater chain mobility and polarizability of the additional sp3 carbons. The current 0.4 sp3 fraction represents a better balance between maintaining moderate dielectric properties while providing sufficient chain flexibility for processing. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "[\"<answer_start> Increasing the sp3 carbon fraction from 0.4 to 0.6 while keeping polar groups constant would lower the glass transition temperature below 40.5°C due to enhanced chain flexibility from more saturated carbons. This would improve processability but reduce the dielectric constant below 16.8 since higher sp3 content dilutes the concentration of polarizable aromatic groups per unit volume, weakening the material's ability to store electrical energy. <answer_end>\"]"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Increasing the sp3 carbon fraction from 0.4 to 0.6 would likely increase chain flexibility, potentially lowering the Tg below 40.5°C, while possibly reducing the dielectric constant from 16.8 due to the decreased polarizability associated with more flexible, non-polar backbone structures.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1721",
+      "text": "In <iupac_start>poly(octamethylene sebacoyldiurea)<iupac_end>, how would reducing the octamethylene segment length to hexamethylene affect the balance between flexibility and cohesive strength, given the current 17 rotatable bonds and 4 urea groups per repeat unit?",
+      "qid": 1721,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> Reducing the octamethylene to hexamethylene segments would decrease flexibility due to fewer rotatable bonds while increasing cohesive strength through more densely packed urea groups. This modification would shift the property balance toward higher strength but reduced flexibility, potentially compromising the current optimal spacing of hydrogen bonding sites. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['Reducing the octamethylene segment to hexamethylene would decrease chain flexibility by removing 2 rotatable bonds, making the polymer more rigid. However, this would increase cohesive strength by allowing the urea groups to pack more closely and form stronger hydrogen bonding networks. The current 17 rotatable bonds provide optimal flexibility for processing, while the proposed modification would shift the balance toward better cohesive properties at the expense of reduced chain mobility and potentially more challenging processing conditions. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> Reducing the octamethylene to hexamethylene would decrease chain flexibility due to fewer rotatable bonds (reduced from 17), making the polymer less processable. However, this modification would increase cohesive strength by concentrating the 4 urea groups more closely together, enhancing hydrogen bonding density and intermolecular interactions. This represents a trade-off between improved mechanical properties and reduced processability. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Reducing the octamethylene segment length to hexamethylene would decrease flexibility and increase cohesive strength.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_783",
+      "text": "With 8 hydrogen bond acceptors and no donors in <iupac_start>poly{(4,4'-sulfonyldiphenol)-alt-[2,2,4,4-tetramethylcyclobutane-1,3-diol bis(chloroformate)]}<iupac_end>, what intermolecular cohesion behavior would you predict, and which structural elements are most responsible?",
+      "qid": 783,
+      "question_type": "5_advanced_property_reasoning",
+      "reference_answer": "<answer_start> The polymer would show moderate intermolecular cohesion primarily through dipole-dipole interactions and π-π stacking. The sulfone groups are most responsible for cohesion due to their strong dipole moment, supported by the aromatic rings' π-π stacking capability. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The polymer would exhibit moderate intermolecular cohesion. The 8 hydrogen bond acceptors (from ester and ether groups) can participate in dipole-dipole interactions, but the absence of hydrogen bond donors limits the strength of these interactions. The sulfone group is most responsible for cohesion due to its strong dipole moment, while the bulky tetramethylcyclobutane segments would partially disrupt close chain packing, resulting in moderate overall cohesion. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The polymer would exhibit moderate to strong intermolecular cohesion primarily through dipole-dipole interactions. The 8 hydrogen bond acceptors (from ester and sulfone groups) enable significant polar interactions between chains, while the absence of donors prevents classical hydrogen bonding networks. The sulfone groups are most responsible for cohesion due to their strong dipole moment and ability to participate in multiple acceptor interactions. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['The polymer is likely to exhibit limited hydrogen bonding due to the absence of hydrogen bond donors. Intermolecular cohesion would primarily rely on van der Waals forces and π-π interactions between aromatic rings. The structural elements most responsible are the aromatic rings and the carbonyl groups of the bis(chloroformate) moieties.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_487",
+      "text": "Given that <iupac_start>poly[mangnese(II) suberate]<iupac_end> has a Bertz complexity index of 201.1 and contains 27 atoms per repeat unit, what does this suggest about its structural organization?",
+      "qid": 487,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The moderate Bertz complexity index and 27-atom repeat unit composition reflects a hybrid structure combining simple aliphatic chains with more complex metal coordination centers, resulting in an ordered yet flexible polymer architecture that balances organic and inorganic components. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The relatively low Bertz complexity index (201.1) despite having 27 atoms per repeat unit indicates a simple, regular structural organization. This is because the complexity index accounts for both the number of atoms and their connectivity pattern. The regular alternating arrangement of ester linkages and the symmetrical placement of the two carboxylate groups on the central carbon creates a predictable, repeating pattern. The presence of only one type of functional group (ester) and the absence of branching or complex substituents further contributes to the low complexity value, reflecting a straightforward, linear polymer architecture. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The moderate Bertz complexity index of 201.1 combined with the relatively large number of atoms (27) per repeat unit indicates a complex but regular structural arrangement. This suggests an ordered polymer structure where the 27 atoms are organized into repeating units containing both metal coordination sites and ester linkages, creating a defined spatial arrangement that contributes to its crystallization tendency. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Poly[manganese(II) suberate] likely has a moderately complex structure with a significant degree of connectivity and branching, as indicated by the Bertz complexity index of 201.1, which reflects the intricacy of its molecular framework.']"
+        }
+      ]
+    },
+    {
+      "id": "rp_1106",
+      "text": "If <iupac_start>poly{9,9-bis[3-(sodiooxycarbonyl)propyl]fluorene-2,7-diyl}<iupac_end> has 8 rotatable bonds but maintains structural integrity, what molecular features must be balancing flexibility and rigidity?",
+      "qid": 1106,
+      "question_type": "2_conceptual_knowledge",
+      "reference_answer": "<answer_start> The structure combines a rigid fluorene core (fused aromatic rings) for backbone integrity with flexible propyl side chains containing rotatable bonds, while terminal sodium carboxylate groups provide stabilizing ionic interactions. <answer_end>",
+      "answers": [
+        {
+          "id": "prediction1",
+          "label": "Prediction 1 (phi 4 nocot)",
+          "text": "['The polymer maintains structural integrity despite 8 rotatable bonds through a balanced molecular design where: 1) The rigid fluorene core provides a planar, conjugated backbone that resists deformation, 2) The propyl side chains with terminal carboxylate groups are positioned at the 2,7-positions of the fluorene, allowing rotational freedom without compromising the main chain rigidity, and 3) The presence of 12 aromatic carbons in the fluorene unit creates a stiff backbone that counteracts the flexibility introduced by the rotatable bonds. This combination allows controlled flexibility while maintaining overall structural stability. <answer_end>']"
+        },
+        {
+          "id": "prediction2",
+          "label": "Prediction 2 (polylm cot)",
+          "text": "['<answer_start> The balance between flexibility and rigidity is achieved through: 1) The rigid fluorene core providing structural stability, 2) The propyl spacers allowing conformational freedom through their rotatable bonds, and 3) The sodium carboxylate end groups creating ionic interactions that help maintain overall structural integrity despite the flexible segments. <answer_end>']"
+        },
+        {
+          "id": "prediction3",
+          "label": "Prediction 3 (gpt4o)",
+          "text": "['Rigid aromatic rings (fluorene units) and flexible alkyl side chains (propyl groups).']"
+        }
+      ]
+    }
+  ]
+}

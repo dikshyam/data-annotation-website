@@ -46,7 +46,7 @@ function ResponsePreferenceReview({ domain, userEmail, onSubmitResponse }) {
     const loadQuestions = async () => {
       try {
         if (domain === 'Response Preference' && userEmail) {
-          const response = await fetch(`${process.env.PUBLIC_URL}/data/response-preference-questions.json`);
+          const response = await fetch(`${process.env.PUBLIC_URL}/data/response-preference-questions_polybench.json`);
           if (!response.ok) {
             throw new Error('Failed to load questions');
           }
@@ -301,11 +301,15 @@ function ResponsePreferenceReview({ domain, userEmail, onSubmitResponse }) {
           // title="Click to skip to a different question"
         />
         
+        
         {currentQuestion.qid && (
           <div className="question-meta">
             <p><strong>Question ID:</strong> {currentQuestion.qid}</p>
             {currentQuestion.question_type && (
-              <p><strong>Type:</strong> {currentQuestion.question_type}</p>
+              <>
+                <p><strong>Type:</strong> {currentQuestion.question_type}</p>
+                <p><strong>Reference Answer:</strong> {currentQuestion.reference_answer}</p>
+              </>
             )}
           </div>
         )}
