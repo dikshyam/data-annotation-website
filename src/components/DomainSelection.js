@@ -63,25 +63,27 @@ function DomainSelection({ onDomainSelect }) {
           </div>
           
           <div className="domain-instructions">
-            <h4>What you'll do:</h4>
-            <ul>
-              <li>Compare multiple AI-generated responses to scientific questions</li>
-              <li><strong>Select the best answer</strong> from the available options</li>
-              <li>Rate your selected answer on quality criteria</li>
-              <li>Explain your preference in comments</li>
-            </ul>
-            
-            <h4>Focus areas:</h4>
-            <ul>
-              <li>Scientific accuracy and completeness</li>
-              <li>Clarity of explanation</li>
-              <li>Relevance to the question asked</li>
-              <li>Overall quality and usefulness</li>
-            </ul>
-            
-            <h4>Your task:</h4>
-            <p>Choose which response best answers the scientific question and rate answers individually.</p>
-          </div>
+          <h4>What you'll do:</h4>
+          <ul>
+            <li>Review a scientific question along with relevant polymer structure and property data</li>
+            <li>Compare <strong>three AI-generated responses</strong> provided for the same question</li>
+            <li><strong>Select the response</strong> that demonstrates the most accurate and coherent reasoning trace</li>
+            <li>Rate <strong>each response</strong> independently on key quality dimensions</li>
+            <li>Provide brief comments explaining your choice and ratings</li>
+          </ul>
+          
+          <h4>Focus areas:</h4>
+          <ul>
+            <li><strong>Relevance</strong> — how well the answer addresses the specific question</li>
+            <li><strong>Completeness</strong> — coverage of key polymer properties, structures, and reasoning steps</li>
+            <li><strong>Accuracy</strong> — correctness of chemical and factual content</li>
+            <li><strong>Clarity</strong> — logical flow and interpretability of the reasoning</li>
+          </ul>
+          
+          <h4>Your task:</h4>
+          <p>Select the most scientifically sound and well-reasoned response, rate all responses on the provided scales, and include short comments to justify your evaluation.</p>
+        </div>
+
           
           <button 
             className="domain-button response-preference"
