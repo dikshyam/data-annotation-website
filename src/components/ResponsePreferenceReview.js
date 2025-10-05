@@ -308,7 +308,7 @@ function ResponsePreferenceReview({ domain, userEmail, onSubmitResponse }) {
             {currentQuestion.question_type && (
               <>
                 <p><strong>Type:</strong> {currentQuestion.question_type}</p>
-                <p><strong>Reference Answer:</strong> {currentQuestion.reference_answer}</p>
+                <p><strong>Reference Answer (Generated from Answer 1):</strong> {currentQuestion.reference_answer}</p>
               </>
             )}
           </div>
