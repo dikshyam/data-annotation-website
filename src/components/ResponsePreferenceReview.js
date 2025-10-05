@@ -46,7 +46,7 @@ function ResponsePreferenceReview({ domain, userEmail, onSubmitResponse }) {
     const loadQuestions = async () => {
       try {
         if (domain === 'Response Preference' && userEmail) {
-          const response = await fetch(`${process.env.PUBLIC_URL}/data/response-preference-questions_polybench.json`);
+          const response = await fetch(`${process.env.PUBLIC_URL}/data/response-preference-questions_polybench_v2.json`);
           if (!response.ok) {
             throw new Error('Failed to load questions');
           }
