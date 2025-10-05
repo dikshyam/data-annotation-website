@@ -321,20 +321,13 @@ function QuestionReview({ domain, userEmail, onSubmitResponse }) {
           </div>
           
           <div className="polymer-section">
-          <h3>Polymer Details | Ground Truth:</h3>
-          <div className="polymer-details-structured">
-            {parsePolymerDetails(currentQuestion.polymer_details)}
-            
-            <div className="ground-truth-note" style={{ 
-              marginTop: '15px', 
-              padding: '10px', 
-              backgroundColor: '#f8f9fa', 
-              borderLeft: '3px solid #007bff',
-              fontSize: '0.9em' 
-            }}>
+            <h3>Polymer Details | Ground Truth:</h3>
+            <div className="polymer-details-structured">
+              {parsePolymerDetails(currentQuestion.polymer_details)}
+              {/* add a note if mcq or ranking based or property prediction or counting, answer is ground truth, if  not answer ignore reference answer as it was generated from one of the candidates */}
               <strong>Note:</strong> For MCQ, ranking, property prediction, and counting tasks, 
-              the answer shown is the ground truth reference. For open-ended QA tasks, the reference 
-              answer is candidate-generated and should be ignored for evaluation purposes.
+                the answer shown is the ground truth reference. For open-ended QA tasks, the reference 
+                answer is candidate-generated and should be ignored for evaluation purposes.
             </div>
           </div>
         </div>
