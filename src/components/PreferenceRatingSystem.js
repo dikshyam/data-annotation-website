@@ -49,7 +49,7 @@ const PreferenceRatingSystem = forwardRef(({ onRatingChange, isPreferred }, ref)
             {criterion.required && <span className="required"> *</span>}
           </div>
           <div className="rating-buttons">
-            {[1, 2, 3, 4, 5, 6, 7].map(value => (
+            {[1, 2, 3, 4, 5].map(value => (
               <button
                 key={value}
                 className={`rating-button ${ratings[criterion.id] === value ? 'selected' : ''}`}
